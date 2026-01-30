@@ -8,7 +8,7 @@
   <book>
     <title>A quiz</title>
 
-    <subtitle>MATH xxx Semester 20xx</subtitle>
+    <subtitle>(or, For some reason PreTeXt won't acknowledge my changes)</subtitle>
 
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
