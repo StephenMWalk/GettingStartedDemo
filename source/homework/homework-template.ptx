@@ -12,7 +12,7 @@
     <exercise workspace="1in">
       <statement>
         <p>
-          This is the first homework exercise.
+          <em>[BASIC] Average value of a continuous function.</em>  Find the average value of the function <m>f(t) = t \sin(t^2)</m> on the interval <m>[0, 20]</m>.  Round your answer to <em>THREE</em> decimal places.  <em>Remember that in calculus, angles are measured in radians rather than in degrees.</em>
         </p>
       </statement>
     </exercise>
