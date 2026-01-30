@@ -6,9 +6,9 @@
   <xi:include href="./docinfo.ptx" />
   <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
   <book>
-    <title>Course Name (change me)</title>
+    <title>Course Name (change me if PreTeXt lets you)</title>
 
-    <subtitle>MATH xxx Semester 20xx</subtitle>
+    <subtitle>Does it work if I change the "main" file?  Why am I not allowed to "deploy" any other file?</subtitle>
 
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
