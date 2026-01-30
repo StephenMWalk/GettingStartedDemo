@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This is the main course file for ... . It is used to generate all the public facing course materials so those can be hosted online.  -->
+<!-- This is my attempt to create a new file.  -->
 <section xml:id="tryquiz" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>A quiz</title>
 
-    <subtitle>(or, For some reason PreTeXt won't acknowledge my changes)</subtitle>
-
     <!-- Optional: include frontmatter with author info and date -->
+
+    <p>The quiz material would be here.</p>
 
   </section>
