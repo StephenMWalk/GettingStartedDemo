@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="paramexperimentation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Parametrization Experimentation</title>
+
+<p>For this exploration, some semesters, I've taken the class to a computer lab and had them use Maple worksheets to explore various parametrizations.</p>
+
+
+      <p>For instance, the worksheet titled "Part A" has a number of command lines for parametrizations involving sines and cosines.  (The syntax for this in Maple has the form "[ x(t), y(t), range of t-values ]" inside the plot command.)</p>
+
+      <p>For each item below, we would use Maple to illustrate the parametrization; then we would include a very basic sketch of the parametrized curve.  You're not using Maple, but you can carry out those tasks.  Also indicate the starting point (corresponding to <m>t = 0</m>) and the direction in which the curve is traced out.  (Maple does not explicitly show us the direction in which the curve was traced out, but we can ferret out that information either by drawing on our knowledge of trigonometry or by experimenting with the range of <m>t</m>-values so that we see the first quarter of the curve, the first half of the curve, and so on.)</p>
+
+      <example>
+      <statement><p><m>x(t) = cos t, y(t) = sin t,  0 2\pi</m>:</p></statement>
+
+      <solution><p>The curve is the unit circle ("unit" meaning "radius 1") centered at the origin.  The starting point is on the right (the point <m>(1, 0)</m>).  The circle is traced out counterclockwise.</p></solution>
+      </example>
+
+</section>

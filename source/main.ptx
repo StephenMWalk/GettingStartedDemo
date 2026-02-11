@@ -34,6 +34,8 @@
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
       <xi:include href="./notes/tryquiz.ptx"/>
+      <xi:include href="./notes/regionsbetweenhandout01.ptx"/>
+      <xi:include href="./notes/paramexp.ptx"/>
       <!-- etc. -->
 
     </chapter>

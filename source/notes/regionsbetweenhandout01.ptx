@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="regionsbetweencurvespart01" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Some Calculus II problems</title>
+
+<example>
+<statement>
+<p>Find the area of the finite region between the graphs of <m>y = 16 - x^{2}</m> and <m>y = x + 4</m>.</p>
+<figure xml:id = "figRegionsbetween01">
+    <caption>The region described in Example 1.</caption>
+    <image source = "images/FirstArea.jpg" width ="60%">
+        <shortdescription>The graph of the quadratic function is a red parabola that opens downward and is symmetric across the y-axis, and the graph of the linear function is a blue line of slope 1 that intersects the parabola near the point negative 4 comma 0 and also near the point 3 comma 7.  The region between the graphs is shaded light-blue in the diagram.</shortdescription>
+    </image>
+</figure>
+</statement>
+<solution>
+<p>We check for intersection points:
+<md>
+<mrow> 16 - x^2 \amp = x + 4, \hbox{so} </mrow>
+<mrow> 0 \amp = x^2 + x - 12, \hbox{so that} </mrow> 
+<mrow> 0 \amp = (x + 4) \cdot (x - 3). </mrow> 
+</md>
+Then <m>x = -4</m> and <m>x = 3</m> are the solutions to the equation and, hence, the <m>x</m>-coordinates of the intersection points of the graphs.</p>
+<p>The area is then given by
+<md>
+<mrow> \int_{-4}^{3}\ ((16 - x^2) - (x + 4))\,dx \amp = \int_{-4}^{3}\ (-x^2 - x + 12)\,dx </mrow>
+<mrow> \amp = \left.\left(-\frac{1}{3}x^3 - \frac{1}{2}x^2 + 12x \right)\right|_{-4}^3 </mrow>
+<mrow> \amp =  \left(\frac{45}{2}\right) - \left(-\frac{104}{3}\right) </mrow>
+<mrow> \amp =  \frac{135}{6} + \frac{208}{6} </mrow>
+<mrow> \amp =  \frac{343}{6} </mrow>
+<mrow> \amp =  57\frac{1}{6}. </mrow>
+</md>
+</p>
+</solution>
+</example>
+
+</section>
