@@ -36,6 +36,7 @@
       <xi:include href="./notes/tryquiz.ptx"/>
       <xi:include href="./notes/regionsbetweenhandout01.ptx"/>
       <xi:include href="./notes/paramexp.ptx"/>
+      <xi:include href="./notes/trigsub.ptx"/>
       <!-- etc. -->
 
     </chapter>
