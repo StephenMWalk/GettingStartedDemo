@@ -5,7 +5,7 @@
 
       <example>
       <p>Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</p>
-      <p><alert>
+      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
 	<md>
 	   <mrow>\hbox{Let } x \amp = 5\sec\theta,</mrow>
 	   <mrow>\hbox{ so that } dx \amp = 5 \sec\theta \tan\theta d\theta.</mrow>
