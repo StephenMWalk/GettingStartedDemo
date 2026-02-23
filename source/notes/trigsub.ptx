@@ -5,11 +5,11 @@
 
       <example>
       <p>Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</p>
-      <p><font "color = FF0000">
+      <p><alert>
 	<md>
 	   <mrow>\hbox{Let } x \amp = 5\sec\theta,</mrow>
 	   <mrow>\hbox{ so that } dx \amp = 5 \sec\theta \tan\theta d\theta.</mrow>
-	</md></font></p>
+	</md></alert></p>
 <p><em>NOTE that the "Let" statement is actually saying "Let <m>\theta</m> be <m>\sin^{-1}\left(\frac{x}{5}\right)</m>."</em>  And recall that this means that
 	<ul>
 		<li><m>\frac{x}{5} = \sec\theta</m></li>
