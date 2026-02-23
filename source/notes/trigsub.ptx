@@ -4,43 +4,43 @@
 <title>Trigonometric substitution</title>
 
       <example>
-      <p>Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</p>
-      <p>Let <m>x=5\sec \theta</m>, so <m>dx=5\sec \theta	an \theta\,d \theta</m> and <m>\sqrt{x^2-25}=5	an \theta</m>.</p>
+      <p>Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</p>
+      <p>Let <m>x=5\sec \theta</m>, so <m>dx=5\sec \theta \tan \theta\,d \theta</m>.</p>
       <me>
-        <m>\int \frac{1}{\sqrt{x^2-25}}\,dx=\int \sec \theta\,d \theta=\ln\lvert\sec \theta+	an \theta
+        <m>\int \frac{1}{\sqrt{x^2-25}}\,dx=\int \sec \theta\,d \theta=\ln\lvert\sec \theta+	an \theta
 vert + C</m>
       </me>
-      <p>Back-substitute using <m>\sec \theta=\frac{x}{5}</m> and <m>	an \theta=\frac{\sqrt{x^2-25}}{5}</m> to get <m>\ln\lvert x+\sqrt{x^2-25}
+      <p>Back-substitute using <m>\sec \theta= \frac{x}{5}</m> and <m>	an \theta= \frac{\sqrt{x^2-25}}{5}</m> to get <m>\ln\lvert x+\sqrt{x^2-25}
 vert + C</m>.</p>
       </example>
 
     <example>
-      <p>Evaluate <m>\int \frac{x^2}{\sqrt{9-x^2}}\,dx</m>.</p>
+      <p>Evaluate <m>\int \frac{x^2}{\sqrt{9-x^2}}\,dx</m>.</p>
       <p>Let <m>x=3\sin \theta</m>, so <m>dx=3\cos \theta\,d \theta</m> and <m>\sqrt{9-x^2}=3\cos \theta</m>.</p>
       <me>
-        <m>\int \frac{x^2}{\sqrt{9-x^2}}\,dx=9\int \sin^2 \theta\,d \theta=	f\frac{9}{2}\Big( \theta-	f\frac{\sin 2 \theta}{2}\Big)+C</m>
+        <m>\int \frac{x^2}{\sqrt{9-x^2}}\,dx=9\int \sin^2 \theta\,d \theta=	f\frac{9}{2}\Big( \theta-	f\frac{\sin 2 \theta}{2}\Big)+C</m>
       </me>
-      <p>With <m> \theta= rcsin(x/3)</m> and <m>\sin 2 \theta=2\sin \theta\cos \theta</m>, a common form is <m>	f\frac{9}{2} rcsin(x/3)-	f\frac{x\sqrt{9-x^2}}{2}+C</m>.</p>
+      <p>With <m> \theta= \sin^{-1}(x/3)</m> and <m>\sin 2 \theta=2\sin \theta\cos \theta</m>, a common form is <m>	f\frac{9}{2} rcsin(x/3)-	f\frac{x\sqrt{9-x^2}}{2}+C</m>.</p>
     </example>
 
     <example>
-      <p>Evaluate <m>\int \frac{1}{(x^2-6x+11)^2}\,dx</m>. Note <m>x^2-6x+11=(x-3)^2+2</m>. Let <m>x-3=\sqrt{2}	an \theta</m>, so <m>dx=\sqrt{2}\sec^2 \theta\,d \theta</m>.</p>
+      <p>Evaluate <m>\int \frac{1}{(x^2-6x+11)^2}\,dx</m>. Note <m>x^2-6x+11=(x-3)^2+2</m>. Let <m>x-3=\sqrt{2}	an \theta</m>, so <m>dx=\sqrt{2}\sec^2 \theta\,d \theta</m>.</p>
       <me>
-        <m>\int \frac{1}{((x-3)^2+2)^2}\,dx=\frac{\sqrt{2}}{4}\int \cos^2 \theta\,d \theta=\frac{\sqrt{2}}{8}\left( \theta+	f\frac{\sin 2 \theta}{2}
+        <m>\int \frac{1}{((x-3)^2+2)^2}\,dx= \frac{\sqrt{2}}{4}\int \cos^2 \theta\,d \theta= \frac{\sqrt{2}}{8}\left( \theta+	f\frac{\sin 2 \theta}{2}
 ight)+C</m>
       </me>
-      <p>Using <m>	an \theta=\frac{x-3}{\sqrt{2}}</m>, we obtain <m>\frac{\sqrt{2}}{8} rctan\!\left(\frac{x-3}{\sqrt{2}}
-ight)+\frac{x-3}{8((x-3)^2+2)}+C</m>.</p>
+      <p>Using <m>	an \theta= \frac{x-3}{\sqrt{2}}</m>, we obtain <m>\frac{\sqrt{2}}{8} rctan\!\left(\frac{x-3}{\sqrt{2}}
+ight)+\frac{x-3}{8((x-3)^2+2)}+C</m>.</p>
       </example>
 
     <example>
       <p>Find the appropriate substitution and identity for each integral. You may need to nearly complete the square.</p>
 
         <ul>
-        <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: let <m>2x=	an \theta</m> so <m>\sqrt{1+4x^2}=\sec \theta</m>.</li>
-        <li>(b) <m>\int \frac{1}{x^2\sqrt{16-x^2}}\,dx</m>: let <m>x=4\sin \theta</m>; <todo>Check algebra with the <m>1/x^2</m> factor</todo>.</li>
+        <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: let <m>2x=	an \theta</m> so <m>\sqrt{1+4x^2}=\sec \theta</m>.</li>
+        <li>(b) <m>\int \frac{1}{x^2\sqrt{16-x^2}}\,dx</m>: let <m>x=4\sin \theta</m>; <todo>Check algebra with the <m>1/x^2</m> factor</todo>.</li>
         <li>(c) <m>\int \sqrt{x^2-9}\,dx</m>: let <m>x=3\sec \theta</m> so <m>\sqrt{x^2-9}=3	an \theta</m>.</li>
-        <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+1}}\,dx</m>: note <m>9x^2+6x+1=(3x+1)^2</m>. <todo>Confirm intended trig form vs. linear substitution</todo>.</li>
+        <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+1}}\,dx</m>: note <m>9x^2+6x+1=(3x+1)^2</m>. <todo>Confirm intended trig form vs. linear substitution</todo>.</li>
         </ul>
     </example>
 
