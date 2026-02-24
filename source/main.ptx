@@ -43,7 +43,7 @@
 
 
     <chapter xml:id="activities">
-      <title>In-Class Activities</title>
+      <title>In-Class Activities (ignore this part also)</title>
 
       <introduction>
         <p>
@@ -64,7 +64,7 @@
     </chapter>
 
     <chapter xml:id="homework">
-      <title>Homework</title>
+      <title>Homework (also ignore)</title>
 
       <!-- Include homework files -->
       <!--<xi:include href="./homework/homework01.ptx"/>-->
