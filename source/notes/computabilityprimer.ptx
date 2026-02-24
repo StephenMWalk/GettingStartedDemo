@@ -22,15 +22,11 @@
 <proposition><p>A set <m>A</m> is computable if and only if <alert>both <m>A</m> and its complement <m>A^c</m>are computably enumerable</alert>.</p></proposition>
 
 <proof>
-<p><alert>(<q><m>A</m> computable</q> <m>\Longrightarrow</m> <q><m>A</m>and <m>A^c</m>computably enumerable</q>)</alert></p>
-
-<p><alert>(<q>><m>\Longrightarrow</m>.</q>)</alert></p>
-
-<p><alert><em>(Sketch.)</em>  Suppose that <m>A</m> is computable.  Run its algorithm for <m>0, 1, 2, \ldots,\,</m>.  Anytime you obtain a <q>Yes</q> answer for some <m>n</m>, put <m>n</m> on the list for <m>A</m>; any time you obtain a <q>No</q> answer for some <m>n</m>, put <m>n</m> on the list for <m>A^c</m>.</alert></p>
+<p><alert>(<q><m>\Longrightarrow</m>.</q>)</alert></p>
 
 <p><alert>(<q><m>A</m>and <m>A^c</m>computably enumerable</q> <m>\Longrightarrow</m> <q><m>A</m> computable</q>)</alert></p>
 
-<p><alert>(<q>><m>\LongLeftarrow</m>.</q>)</alert></p>
+<p><alert>(<q><m>\LongLeftarrow</m>.</q>)</alert></p>
 
 <p><alert><em>(Sketch.)</em>  Suppose that <m>A</m> and <m>A^c</m> are both computably enumerable.  The algorithm for answering a question of the form <q>Is <m>n</m> in <m>A</m>?</q> is essentially <q>Watch both lists</q>:  The number <m>n</m> has to appear eventually on either the <m>A</m> list or the <m>A^c</m> list, and when it appears on one of them, then you will know whether it is an element of <m>A</m>.</alert></p>
 </proof>
