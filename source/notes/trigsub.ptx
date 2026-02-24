@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="trigsub" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Trigonometric substitution</title>
+<title>Calculus II handout: Trigonometric substitution</title>
 
       <example>
       <p><em>This was Example 1 from the class notes.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</p>

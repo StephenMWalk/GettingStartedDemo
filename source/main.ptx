@@ -14,7 +14,7 @@
     <xi:include href="./frontmatter.ptx" />
 
     <chapter xml:id="course-documents">
-      <title>Course Documents</title>
+      <title>Course Documents (ignore this--it came with the template)</title>
 
       <!-- Course syllabus -->
       <xi:include href="./syllabus/syllabus.ptx" />
@@ -22,12 +22,11 @@
     </chapter>
 
     <chapter xml:id="course-notes">
-      <title>Course Notes</title>
+      <title>Some handout keys</title>
 
       <introduction>
         <p>
-          The following notes are intended to remind you what we covered each week.
-          They are not a substitute for attending class and not a substitute for reading the textbook.
+          I'm still learning the markup language (and the associated process) that creates these fully-accessible pages.  It's slow going; I hope to add more items as the semester goes on.
         </p>
       </introduction>
 
