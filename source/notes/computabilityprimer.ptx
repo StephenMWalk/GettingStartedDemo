@@ -71,8 +71,8 @@ For any natural number $n$,
 <p>Historically, many different minds were working (in the 1920s and ’30s) on the question of what it meant for a function of natural numbers to be <q>effectively calculable.</q>
 	<ul>
 		<li> Alonzo <alert>Church</alert> proposed <q><alert>$\lambda$</alert>-definability,</q></li>
-		<li> Haskell <alert>Curry<alert> proposed <q>definability by <alert>combinators</alert>,</q></li>
-		<li> Kurt <alert>G\"{o}del<alert> and Stephen <alert>Kleene</alert> proposed <q><alert>general recursiveness</alert>,</q> and </li>	
+		<li> Haskell <alert>Curry</alert> proposed <q>definability by <alert>combinators</alert>,</q></li>
+		<li> Kurt <alert>G\"{o}del</alert> and Stephen <alert>Kleene</alert> proposed <q><alert>general recursiveness</alert>,</q> and </li>	
 		<li> Alan <alert>Turing</alert> proposed <q>computability by <alert>[Turing] machine</alert>.</q></li>
 		<li> We could also consider (though this idea came up later) <q><alert>flowchart</alert> computability.</q></li>
 	</ul>
