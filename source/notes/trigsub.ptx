@@ -75,7 +75,7 @@
 <p><alert>(We start out in red ink for the "<m>\theta</m>-language" and will switch to blue for the final step when we translate back to "<m>x</m>-language.")  The integral is
 <md>
 <mrow> \cdots \amp = -\cot\theta - \theta + C </mrow>
-<mrow> \amp = -\frac{\sqrt{9-x^2}}{x^2} - \sin^{-1}\left(\frac{x}{3}\right) + C. </mrow>
+<mrow> \amp = -\frac{\sqrt{9-x^2}}{x} - \sin^{-1}\left(\frac{x}{3}\right) + C. </mrow>
 </md>
 </alert></p>
       </example>
