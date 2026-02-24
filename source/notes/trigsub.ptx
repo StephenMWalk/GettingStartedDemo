@@ -27,7 +27,14 @@
 
 <p>(Blue ink again--a side note.)  Note that because of the restrictions on <m>\theta</m>, <m>\tan\theta</m> must be nonnegative, so that <m>\sqrt{(\tan\theta)^2} = \tan\theta</m>.  That was used in the above calculations to replace "<m>\sqrt{(\tan\theta)^2}</m>" with "<m>\tan\theta</m>."</p>
 
-<p>NOW THE RIGHT-TRIANGLE DIAGRAM</p>
+<p>To figure out how to put the antiderivative back into <m>x</m>-language, we use a right-triangle diagram:</p>
+<figure xml:id = "figTrigSub01">
+    <caption>A right-triangle diagram needed to finish Example 1.</caption>
+    <image source = "images/RTDiagramforExample1.jpg" width ="60%">
+        <shortdescription>Reference triangles in Quadrants One and Three are labeled so that the secant of the angle theta is x-over-5.</shortdescription>
+	<description>Reference triangles for angle theta lie in Quadrants One and Three.  In Quadrant One, the hypotenuse has been labeled as x, the horizontal leg has been labeled as 5, and the resulting value for the vertical leg is the square root of (x-squared minus 25).  In Quadrant Three, the hypotenuse has been labeled as negative-x, the horizontal leg has been labeled as negative-5, and the resulting value for the vertical leg is negative-one times the square root of (x-squared minus 25).</description>
+    </image>
+</figure>
 
 <p>NOW FINISHING UP BY PUTTING THINGS BACK INTO X-LANGUAGE</p>
 <p>We rejoin the calculations above, already in progress:</p>
@@ -68,7 +75,15 @@
 
 <p>(Blue ink again--a side note.)  Note that because of the restrictions on <m>\theta</m>, <m>\cos\theta</m> must be nonnegative, so that <m>\sqrt{(\cos\theta)^2} = \cos\theta</m>.  That was used in the above calculations to replace "<m>\sqrt{(\cos\theta)^2}</m>" with "<m>\cos\theta</m>."</p>
 
-<p>NOW THE RIGHT-TRIANGLE DIAGRAM</p>
+<p>To figure out how to put the antiderivative back into <m>x</m>-language, we use a right-triangle diagram:</p>
+
+<figure xml:id = "figTrigSub02">
+    <caption>A right-triangle diagram needed to finish Example 2.</caption>
+    <image source = "images/RTDiagramforExample2.jpg" width ="60%">
+        <shortdescription>Reference triangles in Quadrants One and Four are labeled so that the sine of the angle theta is x-over-3.</shortdescription>
+	<description>Reference triangles for angle theta lie in Quadrants One and Four.  In each Quadrant, the hypotenuse has been labeled as 3, the vertical leg has been labeled as x, and the resulting value for the horizontal leg is the square root of (9 minus x-squared).  It is noted that in each Quadrant, the cotangent of theta is (the square root of (9 minus x-squared)), over x.</description>
+    </image>
+</figure>
 
 <p>NOW FINISHING UP BY PUTTING THINGS BACK INTO X-LANGUAGE</p>
 <p><font color = "FF0000">We rejoin the calculations above, already in progress:</font></p>
@@ -94,11 +109,23 @@ ight)+\frac{x-3}{8((x-3)^2+2)}+C</m>.</p>
       <p>Find the appropriate substitution and identity for each integral. You may need to nearly complete the square.</p>
 
         <ul>
-        <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: let <m>2x=	an \theta</m> so <m>\sqrt{1+4x^2}=\sec \theta</m>.</li>
-        <li>(b) <m>\int \frac{1}{x^2\sqrt{16-x^2}}\,dx</m>: let <m>x=4\sin \theta</m>; <todo>Check algebra with the <m>1/x^2</m> factor</todo>.</li>
-        <li>(c) <m>\int \sqrt{x^2-9}\,dx</m>: let <m>x=3\sec \theta</m> so <m>\sqrt{x^2-9}=3	an \theta</m>.</li>
-        <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+1}}\,dx</m>: note <m>9x^2+6x+1=(3x+1)^2</m>. <todo>Confirm intended trig form vs. linear substitution</todo>.</li>
+         <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: let <m>2x=	an \theta</m> so <m>\sqrt{1+4x^2}=\sec \theta</m>.</li>
+         <li>(b) <m>\int \frac{1}{x^2\sqrt{16-x^2}}\,dx</m>: let <m>x=4\sin \theta</m>; <todo>Check algebra with the <m>1/x^2</m> factor</todo>.</li>
+         <li>(c) <m>\int \sqrt{x^2-9}\,dx</m>: let <m>x=3\sec \theta</m> so <m>\sqrt{x^2-9}=3	an \theta</m>.</li>
+         <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+1}}\,dx</m>: note <m>9x^2+6x+1=(3x+1)^2</m>. <todo>Confirm intended trig form vs. linear substitution</todo>.</li>
         </ul>
+
+
+        <p>To figure out how to put the antiderivative back into <m>x</m>-language, we use a right-triangle diagram:</p>
+
+    <figure xml:id = "figTrigSub03">
+       <caption>A right-triangle diagram needed to finish Example 3.</caption>
+      <image source = "images/RTDiagramforExample3.jpg" width ="60%">
+          <shortdescription>Reference triangles in Quadrants One and Four are labeled so that the tangent of the angle theta is (x minus 3)-over-(the square root of 2).</shortdescription>
+	        <description>Reference triangles for angle theta lie in Quadrants One and Four.  In each Quadrant, the vertical leg has been labeled as x minus 3, the horizontal leg has been labeled as the square root of 2, and the resulting value for the hypotenuse is the square root of ((x minus 3)-squared plus (the square root of 2)-squared).</description>
+      </image>
+    </figure>
+
     </example>
 
 </section>
