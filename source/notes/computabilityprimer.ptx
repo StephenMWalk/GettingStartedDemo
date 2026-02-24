@@ -43,7 +43,7 @@
 <p>A Turing machine can handle any number of inputs, if we adopt a convention on how the inputs are to be rendered on the tape.  For instance we can enter the ordered triple $3$, $0$, $4$ as follows:</p>
 
 
-<p>Then we can consider functions from $\mathbb{N}^m$ to $\mathbb{N}$, for any positive $m$.<p>
+<p>Then we can consider functions from $\mathbb{N}^m$ to $\mathbb{N}$, for any positive $m$.</p>
 
 </subsection>
 
