@@ -77,7 +77,7 @@ It can be shown that <alert>all of these characterizations are EQUIVALENT:  Any 
 
 <p>We adopt the idea that</p>
 <blockquote>Every function for which there is an intuitively effective process for computing its values can be shown to be <alert> in any of these categories</alert>; for example, it must be <alert>Turing-computable and also general recursive</alert>.</blockquote>
-<p>This is called <alert><q>Turing's Thesis</q>, <q>the Church-Turing Thesis</q>, or <q>Church's Thesis</q></alert>.</p>
+<p>This is called <alert><q>Turing's Thesis</q>, <q>the Church-Turing Thesis.</q> or <q>Church's Thesis.</q></alert></p>
 
 </subsection>
 
