@@ -24,8 +24,9 @@
 <proof>
 <p><alert>(<q><m>\Longrightarrow</m>.</q>)</alert></p>
 
-<p><alert><em>(Sketch.)</em>  Suppose that <m>A</m> is computable.  Run its algorithm for <m>0, 1, 2, \ldots,\,</m>.  Anytime you obtain a <q>Yes</q> answer for some <m>n</m>, put <m>n</m> on the list for <m>A</m>; any time you obtain a <q>No</q> answer for some <m>n</m>, put <m>n</m> on the list for <m>A^c</m>.</alert></p>
-<p><alert>(<q><m>\LongLeftarrow</m>.</q>)</alert></p>
+<p><alert><em>(Sketch.)</em>  Suppose that <m>A</m> is computable.  Run its algorithm for <m>0, 1, 2, \ldots\,</m>.  Anytime you obtain a <q>Yes</q> answer for some <m>n</m>, put <m>n</m> on the list for <m>A</m>; any time you obtain a <q>No</q> answer for some <m>n</m>, put <m>n</m> on the list for <m>A^c</m>.</alert></p>
+
+<p><alert>(<q><m>\Longleftarrow</m>.</q>)</alert></p>
 
 <p><alert><em>(Sketch.)</em>  Suppose that <m>A</m> and <m>A^c</m> are both computably enumerable.  The algorithm for answering a question of the form <q>Is <m>n</m> in <m>A</m>?</q> is essentially <q>Watch both lists</q>:  The number <m>n</m> has to appear eventually on either the <m>A</m> list or the <m>A^c</m> list, and when it appears on one of them, then you will know whether it is an element of <m>A</m>.</alert></p>
 </proof>
@@ -38,7 +39,7 @@
 
 <definition><p>A function <m>f</m> from <m>\mathbb{N}</m> to <m>\mathbb{N}</m> is <alert>Turing-computable</alert> if there is a Turing machine such that, for every <m>n</m> in the domain of <m>f</m>, the Turing machine, when given input <m>n</m>, <alert>EVENTUALLY HALTS and produces output <m>f(n)</m></alert>.</p></definition>
 
-<p>A Turing machine can handle any number of inputs, if we adopt a convention on how the inputs are to be rendered on the tape.  For instance we can enter the ordered triple <m>3</m>, <m>0</m>, <m>4</m> as follows:</p>
+<p>A Turing machine can handle any number of inputs, if we adopt a convention on how the inputs are to be rendered on the tape.  For instance, we can enter the ordered triple <m>3</m>, <m>0</m>, <m>4</m> as follows:</p>
 
 <center>PICTURE HERE</center>
 
@@ -62,7 +63,7 @@ For any natural number <m>n</m>,
 
 <p><em>THINKING BACK TO COMPUTABLE SETS.</em>  It is not hard to see that a SET <m>A</m> of natural numbers is computable <em>IF AND ONLY IF</em> <alert>its characteristic function, <m>\chi_A</m>, is a computable function</alert>.</p>
 
-<p><em>THINKING BACK TO COMPUTABLY ENUMERABLE SETS.</em>  More properly, a subset <m>A</m> of <m>\mathbb{N}</m> is <alert>computably enumerable</alert> if it is the domain of some <alert>Turing-computable function</alert>.</p>
+<p><em>THINKING BACK TO COMPUTABLY ENUMERABLE SETS.</em>  More properly, a subset <m>A</m> of <m>\mathbb{N}</m> is <alert>computably enumerable</alert> if it is the <i>domain</i> of some <alert>Turing-computable function</alert>.</p>
 
 <p>(We imagine the algorithms to be given in some order---lexicographic, usually---and we denote the <alert>Turing-computable</alert> function that is computed by the <m>e</m>th algorithm as <q><m>\varphi_e</m>,</q> with the corresponding <alert>computably enumerable</alert> set denoted <q><m>W_e</m>.</q>)</p>
 
