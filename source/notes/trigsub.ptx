@@ -57,7 +57,6 @@
 <p><alert>(Back to red ink now.)  The integral becomes
 <md>
 <mrow> \int \frac{\sqrt{9-9\sin^2\theta}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta \amp = \int \frac{\sqrt{9 \cdot (1 - \sin^2\theta)}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta </mrow>
-<mrow> \amp = \int \frac{\sqrt{9 \cdot (1 - \sin^2\theta)}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta </mrow>
 <mrow> \amp = \int \frac{\sqrt{9} \cdot \sqrt{\cos^2\theta}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta </mrow>
 <mrow> \amp = \int \frac{\cos^2\theta}{\sin^2\theta}\ d\theta </mrow>
 <mrow> \amp = \int \left(\frac{\cos\theta}{\sin\theta}\right)^2\ d\theta </mrow>
