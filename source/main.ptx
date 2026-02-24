@@ -37,6 +37,7 @@
       <xi:include href="./notes/regionsbetweenhandout01.ptx"/>
       <xi:include href="./notes/paramexp.ptx"/>
       <xi:include href="./notes/trigsub.ptx"/>
+      <xi:include href="./notes/computabilityprimer.ptx"/>
       <!-- etc. -->
 
     </chapter>
