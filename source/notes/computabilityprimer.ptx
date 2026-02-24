@@ -7,7 +7,7 @@
 	
 	<title>Sets</title>
 
-<definition>A subset <m>A</m> of <m>\mathbb{N}</m> is said to be <alert>computable</alert> if there is an algorithm that will give a correct <q>Yes or No</q> answer to every question of the form <q>Is <m>n</m> in <m>A</m>?</q></definition>
+<definition><p>A subset <m>A</m> of <m>\mathbb{N}</m> is said to be <alert>computable</alert> if there is an algorithm that will give a correct <q>Yes or No</q> answer to every question of the form <q>Is <m>n</m> in <m>A</m>?</q></p></definition>
 
 <p><alert>Examples:
 	<ul>
