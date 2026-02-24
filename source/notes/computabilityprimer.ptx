@@ -12,7 +12,7 @@
 		<li> the set of all even natural numbers, </li>
 		<li> the set of all prime numbers, and </li>
 		<li> any <em>finite</em> set.</li>
-	</uil>
+	</ul>
 </alert></p>
 
 <definition>A subset <m>A</m> of <m>\mathbb{N}</m> is said to be <alert>computably enumerable</alert>if there is an algorithm that can <alert>list its elements---or, alternatively, if there is an algorithm that can give all correct <q>Yes</q> answers to questions of the form <q>Is $n$ in $A$?</q> but no <q>No</q> answers</alert>.</definition>
