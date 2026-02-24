@@ -71,13 +71,13 @@
 <p>NOW THE RIGHT-TRIANGLE DIAGRAM</p>
 
 <p>NOW FINISHING UP BY PUTTING THINGS BACK INTO X-LANGUAGE</p>
-<p>We rejoin the calculations above, already in progress:</p>
-<p><alert><color = "FF0000">(We start out in red ink for the "<m>\theta</m>-language" and will switch to blue for the final step when we translate back to "<m>x</m>-language.")  The integral is
+<p><font color = "FF0000">We rejoin the calculations above, already in progress:</font></p>
+<p><alert>(We start out in red ink for the "<m>\theta</m>-language" and will switch to blue for the final step when we translate back to "<m>x</m>-language.")  The integral is
 <md>
 <mrow> \cdots \amp = -\cot\theta - \theta + C </mrow>
 <mrow> \amp = -\frac{\sqrt{9-x^2}}{x} - \sin^{-1}\left(\frac{x}{3}\right) + C. </mrow>
 </md>
-</color></alert></p>
+</alert></p>
       </example>
 
     <example>
