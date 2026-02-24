@@ -5,7 +5,7 @@
 
       <example>
       <p><em>This was Example 1 from the class notes.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</p>
-      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
+      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.  PreTeXt, the system used to typeset these notes, does not allow changing the color of a font.)
 	<md>
 	   <mrow>\hbox{Let } x \amp = 5\sec\theta,</mrow>
 	   <mrow>\hbox{ so that } dx \amp = 5 \sec\theta \tan\theta\ d\theta.</mrow>
@@ -43,7 +43,7 @@
 
     <example>
       <p><em>This was Example 2 from the class notes.)</em>  Evaluate <m>\int \frac{\sqrt{9-x^2}}{x^2}\,dx</m>.</p>
-      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
+      <p><alert>{\color{red}{(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)}
 	<md>
 	   <mrow>\hbox{Let } x \amp = 3\sin\theta,</mrow>
 	   <mrow>\hbox{ so that } dx \amp = 3 \cos\theta\ d\theta.</mrow>
