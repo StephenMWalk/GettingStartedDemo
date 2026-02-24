@@ -18,7 +18,7 @@
 	</p>
 <p><alert>(Back to red ink now.)  The integral becomes
 <md>
-<mrow> \int \frac{1}{\sqrt{(5\sec\theta)^2 - 25}} \cdot 5 \sec\theta \tan\theta\ d\theta \amp = \int \frac{1}{\sqrt{5^2(\sec^2\theta - 1)}} \cdot 5 \sec\theta \tan\theta\ d\theta </mrow>
+<mrow> \int \frac{1}{\sqrt{(5\sec\theta)^2 - 25}} \cdot 5 \sec\theta \tan\theta\ d\theta \amp = \int \frac{1}{\sqrt{5^2 \cdot (\sec^2\theta - 1)}} \cdot 5 \sec\theta \tan\theta\ d\theta </mrow>
 <mrow> \amp = \int \frac{1}{\sqrt{5^2} \cdot \sqrt{(\tan\theta)^2}} \cdot 5 \sec\theta \tan\theta\ d\theta </mrow>
 <mrow> \amp = \int \sec\theta\ d\theta </mrow>
 <mrow> \amp = \ln\left|\sec\theta + \tan\theta\right| + C. </mrow>
@@ -42,7 +42,7 @@
       </example>
 
     <example>
-      <p><em>This was Example 2 from the class notes.)</em>  Evaluate <m>\int \frac{x^2}{\sqrt{9-x^2}}\,dx</m>.</p>
+      <p><em>This was Example 2 from the class notes.)</em>  Evaluate <m>\int \frac{\sqrt{9-x^2}}{x^2}\,dx</m>.</p>
       <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
 	<md>
 	   <mrow>\hbox{Let } x \amp = 3\sin\theta,</mrow>
