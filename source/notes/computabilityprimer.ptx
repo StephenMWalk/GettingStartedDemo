@@ -40,7 +40,7 @@
 <title>Functions</title>
 
 <definition><p>A function <m>f</m> from <m>\mathbb{N}</m> to <m>\mathbb{N}</m> is <alert>Turing-computable</alert> if there is a Turing machine such that for every <m>n</m> in the domain of <m>f</m>, the Turing machine, when given input <m>n</m>, <alert>EVENTUALLY HALTS and produces output <m>f(n)</m></alert>.</p>
-<p>(<em>NOTE</em> that this does not require that the function be <q>total,</q>, that is, that its domain be all of <m>\mathbb{N}</m>.  Its domain may well be a <em>proper</em> subset of <m>\mathbb{N}</m>.  We generally use the term <q><em>partial</em>-computable function</q> to refer to a Turing-computable function whose domain is known <em>not</em> to be, or simply is not known <em>to</em> be, total.)</p></definition>
+<p>(<em>NOTE</em> that this does not require that the function be <q>total,</q> that is, that its domain be all of <m>\mathbb{N}</m>.  Its domain may well be a <em>proper</em> subset of <m>\mathbb{N}</m>.  We generally use the term <q><em>partial</em>-computable function</q> to refer to a Turing-computable function whose domain is known <em>not</em> to be, or simply is not known <em>to</em> be, total.)</p></definition>
 
 <p>A Turing machine can handle any number of inputs, if we adopt a convention on how the inputs are to be rendered on the tape.  For instance, we can enter the ordered triple <m>3</m>, <m>0</m>, <m>4</m> as follows:</p>
 
