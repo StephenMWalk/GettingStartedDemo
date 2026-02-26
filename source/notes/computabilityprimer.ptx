@@ -21,7 +21,7 @@
 <definition><p>A subset <m>A</m> of <m>\mathbb{N}</m> is said to be <alert>computably enumerable</alert> if there is an algorithm that can <alert>list its elements---or, alternatively, if there is an algorithm that can give all correct <q>Yes</q> answers to questions of the form <q>Is <m>n</m> in <m>A</m>?</q> but no <q>No</q> answers</alert>.</p></definition>
 
 <proposition><p>A set <m>A</m> is computable if and only if <alert>both <m>A</m> and its complement <m>A^c</m> are computably enumerable</alert>.</p>
-<p>Click on <q>Proof</q> below to see a proof of this Proposition.)</p></proposition>
+<p>(Click on <q>Proof</q> below to see a proof of this Proposition.)</p></proposition>
 
 <proof>
 <p><alert>(<q><m>\Longrightarrow</m>.</q>)</alert></p>
@@ -45,7 +45,7 @@
 
 <figure xml:id = "TuringMachine">
     <caption>A Turing machine with inputs 3, 0, and 4.</caption>
-    <image source = "images/TuringMachine.jpg" width ="60%">
+    <image source = "images/TuringMachine.jpg" width ="80%">
         <shortdescription>A Turing machine whose tape has four consecutive ones, a space, another one, another space, and five more consecutive ones.  The read-write head points at the leftmost one.</shortdescription>
     </image>
 </figure>
