@@ -75,11 +75,13 @@ For any natural number <m>n</m>,
 		<li> Alan <alert>Turing</alert> proposed <q>computability by <alert>[Turing] machine</alert>.</q></li>
 		<li> We could also consider (though this idea came up later) <q><alert>flowchart</alert> computability.</q></li>
 	</ul>
-It can be shown that <alert>all of these characterizations are EQUIVALENT:  Any function that is in one category (e.g.\ any <m>\lambda</m>-definable function) must also be in all of the other categories (that is, it must be definable by combinators and Turing-computable, for instance)</alert>.</p>
+It can be shown that <alert>all of these characterizations are EQUIVALENT:  Any function that is in one category (e.g. any <m>\lambda</m>-definable function) must also be in all of the other categories (that is, it must be definable by combinators and Turing-computable, for instance)</alert>.</p>
 
 <p>We adopt the idea that
 <blockquote>Every function for which there is an intuitively effective process for computing its values can be shown to be <alert> in any of these categories</alert>; for example, it must be <alert>Turing-computable and also general recursive</alert>.</blockquote>
 This is called <alert><q>Turing's Thesis</q>, <q>the Church-Turing Thesis.</q> or <q>Church's Thesis.</q></alert></p>
+
+<bloc
 
 </subsection>
 
