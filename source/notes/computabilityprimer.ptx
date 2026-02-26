@@ -69,7 +69,7 @@ For any natural number <m>n</m>, <m>\chi_A(n)</m> is
 
 <p><em>THINKING BACK TO COMPUTABLE SETS.</em>  It is not hard to see that a SET <m>A</m> of natural numbers is computable <em>IF AND ONLY IF</em> <alert>its characteristic function, <m>\chi_A</m>, is a computable function</alert>.</p>
 
-<p><em>THINKING BACK TO COMPUTABLY ENUMERABLE SETS.</em>  More properly, a subset <m>A</m> of <m>\mathbb{N}</m> is <alert>computably enumerable</alert> if it is the <em>domain</em> of some <alert>Turing-computable function.  (That's the actual DEFINITION.)</alert></p>
+<p><em>THINKING BACK TO COMPUTABLY ENUMERABLE SETS.</em>  More properly, a subset <m>A</m> of <m>\mathbb{N}</m> is <alert>computably enumerable</alert> if it is the <em>domain</em> of some <alert>Turing-computable function.  (That's the actual, official DEFINITION.)</alert></p>
 <p>(<em>NOTE:</em>  We imagine the algorithms to be given in some order---lexicographic, usually---and we denote the <alert>Turing-computable</alert> function that is computed by the <m>e</m>th algorithm as <q><m>\varphi_e</m>,</q> with the corresponding <alert>computably enumerable</alert> set denoted <q><m>W_e</m>.</q>)</p>
 <p>In case you're wondering, here's the connection between that official definition and the <q>listability</q> idea:
 <ul>
