@@ -135,7 +135,7 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
 </md>
 </alert></p>
 
-<p>(Blue ink again--a side note.)  Note that because of the restrictions on <m>\theta</m>, <m>\sec\theta</m> must be nonnegative, so that <m>\sqrt{(\sec\theta)^2} = \sec\theta</m>.  That was used in the above calculations to replace "<m>\sqrt{(\sec\theta)^2}</m>" with "<m>\sec\theta</m>."  Below is the diagram that helped us put the antiderivative back into <m>x</m>-language.</p>
+<p>Below is the diagram that helped us put the antiderivative back into <m>x</m>-language.</p>
 
     <figure xml:id = "figTrigSub03">
        <caption>A right-triangle diagram needed to finish Example 3.</caption>
