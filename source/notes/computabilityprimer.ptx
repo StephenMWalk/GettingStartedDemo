@@ -78,7 +78,7 @@ For any natural number <m>n</m>,
 It can be shown that <alert>all of these characterizations are EQUIVALENT:  Any function that is in one category (e.g. any <m>\lambda</m>-definable function) must also be in all of the other categories (that is, it must be definable by combinators and Turing-computable, for instance)</alert>.</p>
 
 <p>We adopt the idea that</p>
-<p>Every function for which there is an intuitively effective process for computing its values can be shown to be <alert> in any of these categories</alert>; for example, it must be <alert>Turing-computable and also general recursive</alert>.</p>
+<blockquote>Every function for which there is an intuitively effective process for computing its values can be shown to be <alert> in any of these categories</alert>; for example, it must be <alert>Turing-computable and also general recursive</alert>.</blockquote>
 <p>This is called <alert><q>Turing's Thesis</q>, <q>the Church-Turing Thesis,</q> or <q>Church's Thesis.</q></alert></p>
 
 </subsection>
