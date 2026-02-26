@@ -110,7 +110,7 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
 	<solution>
 	<p>Note first that <m>x^2-6x+11=(x-3)^2+2</m>. Then the integral can be written as
 <md> \int\ \frac{1}{((x-3)^2+2)^2}\ dx.</md></p>
-      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.  PreTeXt, the system used to typeset these notes, does not allow changing the color of a font.)
+      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
 	<md>
 	   <mrow>{\color{red}{\hbox{Let } x-3 }} \amp {\color{red}{ = \sqrt{2}\tan\theta,}}</mrow>
 	   <mrow>{\color{red}{\hbox{ so that } dx }} \amp {\color{red}{ = \sqrt{2} \sec^2\theta\ d\theta.}}</mrow>
