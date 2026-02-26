@@ -56,10 +56,10 @@
 <definition><p>The <alert>characteristic function of a set <m>A</m></alert> is the <alert>total</alert> function defined as follows:
 For any natural number <m>n</m>,
 <md>
-\chi_A = \left\{
-<md><mrow> 1, \amp \hbox{ if } n \in A, \hbox{ and } </mrow>
+<mrow>\chi_A = \left\{
+<mrow> 1, \amp \hbox{ if } n \in A, \hbox{ and } </mrow>
 <mrow> 0, \amp \hbox{ if } n \not\in A. </mrow></md>
-\right.
+\right.</mrow>
 </md>
 </p></definition>
 
