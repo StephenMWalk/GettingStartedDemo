@@ -19,7 +19,7 @@
 
 <definition><p>A subset <m>A</m> of <m>\mathbb{N}</m> is said to be <alert>computably enumerable</alert> if there is an algorithm that can <alert>list its elements---or, alternatively, if there is an algorithm that can give all correct <q>Yes</q> answers to questions of the form <q>Is <m>n</m> in <m>A</m>?</q> but no <q>No</q> answers</alert>.</p></definition>
 
-<proposition><p>A set <m>A</m> is computable if and only if <alert>both <m>A</m> and its complement <m>A^c</m>are computably enumerable</alert>.</p></proposition>
+<proposition><p>A set <m>A</m> is computable if and only if <alert>both <m>A</m> and its complement <m>A^c</m> are computably enumerable</alert>.</p></proposition>
 
 <proof>
 <p><alert>(<q><m>\Longrightarrow</m>.</q>)</alert></p>
@@ -37,7 +37,7 @@
 
 <title>Functions</title>
 
-<definition><p>A function <m>f</m> from <m>\mathbb{N}</m> to <m>\mathbb{N}</m> is <alert>Turing-computable</alert> if there is a Turing machine such that, for every <m>n</m> in the domain of <m>f</m>, the Turing machine, when given input <m>n</m>, <alert>EVENTUALLY HALTS and produces output <m>f(n)</m></alert>.</p></definition>
+<definition><p>A function <m>f</m> from <m>\mathbb{N}</m> to <m>\mathbb{N}</m> is <alert>Turing-computable</alert> if there is a Turing machine such that for every <m>n</m> in the domain of <m>f</m>, the Turing machine, when given input <m>n</m>, <alert>EVENTUALLY HALTS and produces output <m>f(n)</m></alert>.</p></definition>
 
 <p>A Turing machine can handle any number of inputs, if we adopt a convention on how the inputs are to be rendered on the tape.  For instance, we can enter the ordered triple <m>3</m>, <m>0</m>, <m>4</m> as follows:</p>
 
@@ -71,15 +71,15 @@ For any natural number <m>n</m>,
 	<ul>
 		<li> Alonzo <alert>Church</alert> proposed <q><alert><m>\lambda</m></alert>-definability,</q></li>
 		<li> Haskell <alert>Curry</alert> proposed <q>definability by <alert>combinators</alert>,</q></li>
-		<li> Kurt <alert>G\"{o}del</alert> and Stephen <alert>Kleene</alert> proposed <q><alert>general recursiveness</alert>,</q> and </li>	
+		<li> Kurt <alert>Gödel</alert> and Stephen <alert>Kleene</alert> proposed <q><alert>general recursiveness</alert>,</q> and </li>	
 		<li> Alan <alert>Turing</alert> proposed <q>computability by <alert>[Turing] machine</alert>.</q></li>
 		<li> We could also consider (though this idea came up later) <q><alert>flowchart</alert> computability.</q></li>
 	</ul>
 It can be shown that <alert>all of these characterizations are EQUIVALENT:  Any function that is in one category (e.g.\ any <m>\lambda</m>-definable function) must also be in all of the other categories (that is, it must be definable by combinators and Turing-computable, for instance)</alert>.</p>
 
-<p>We adopt the idea that</p>
+<p>We adopt the idea that
 <blockquote>Every function for which there is an intuitively effective process for computing its values can be shown to be <alert> in any of these categories</alert>; for example, it must be <alert>Turing-computable and also general recursive</alert>.</blockquote>
-<p>This is called <alert><q>Turing's Thesis</q>, <q>the Church-Turing Thesis.</q> or <q>Church's Thesis.</q></alert></p>
+This is called <alert><q>Turing's Thesis</q>, <q>the Church-Turing Thesis.</q> or <q>Church's Thesis.</q></alert></p>
 
 </subsection>
 
