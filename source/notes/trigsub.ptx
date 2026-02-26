@@ -4,11 +4,12 @@
 <title>Calculus II handout: Trigonometric substitution</title>
 
       <example>
-      <p><em>This was Example 1 from the class notes.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</p>
+      <statement><em>(This was Example 1 from the class notes.  The markup language I'm using, "PreTeXt," has opinions about how things are supposed to be numbered.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</statement>
+	<solution>
       <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.  PreTeXt, the system used to typeset these notes, does not allow changing the color of a font.)
 	<md>
-	   <mrow>\hbox{Let } x \amp = 5\sec\theta,</mrow>
-	   <mrow>\hbox{ so that } dx \amp = 5 \sec\theta \tan\theta\ d\theta.</mrow>
+	   <mrow>{\color{red}{\hbox{Let } x }} \amp {\color{red}{ = 5\sec\theta,}}</mrow>
+	   <mrow>{\color{red}{\hbox{ so that } dx }} \amp {\color{red}{ = 5 \sec\theta \tan\theta\ d\theta.}}</mrow>
 	</md></alert></p>
 <p>(And this was blue--a side note that was added after we antidifferentiated the <m>\theta</m>-term and immediately before we drew the right-triangle diagram.)  <em>NOTE that the "Let" statement is actually saying "Let <m>\theta</m> be <m>\sec^{-1}\left(\frac{x}{5}\right)</m>."</em>  And recall that this means that
 	<ul>
@@ -16,12 +17,12 @@
 		<li>AND (either <m>0 \leq \theta \lt \frac{\pi}{2}</m> or <m>\pi \leq \theta \lt \frac{3\pi}{2}</m>).</li>
 	</ul>
 	</p>
-<p><alert>(Back to red ink now.)  The integral becomes
+<p><alert>(Back to red ink now, where the markup language will allow it.)  The integral becomes
 <md>
-<mrow> \int \frac{1}{\sqrt{(5\sec\theta)^2 - 25}} \cdot 5 \sec\theta \tan\theta\ d\theta \amp = \int \frac{1}{\sqrt{5^2 \cdot (\sec^2\theta - 1)}} \cdot 5 \sec\theta \tan\theta\ d\theta </mrow>
-<mrow> \amp = \int \frac{1}{\sqrt{5^2} \cdot \sqrt{(\tan\theta)^2}} \cdot 5 \sec\theta \tan\theta\ d\theta </mrow>
-<mrow> \amp = \int \sec\theta\ d\theta </mrow>
-<mrow> \amp = \ln\left|\sec\theta + \tan\theta\right| + C. </mrow>
+<mrow> {\color{red}{\int \frac{1}{\sqrt{(5\sec\theta)^2 - 25}} \cdot 5 \sec\theta \tan\theta\ d\theta }} \amp {\color{red}{ = \int \frac{1}{\sqrt{5^2 \cdot (\sec^2\theta - 1)}} \cdot 5 \sec\theta \tan\theta\ d\theta}} </mrow>
+<mrow> \amp {\color{red}{ = \int \frac{1}{\sqrt{5^2} \cdot \sqrt{(\tan\theta)^2}} \cdot 5 \sec\theta \tan\theta\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \int \sec\theta\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \ln\left|\sec\theta + \tan\theta\right| + C. }} </mrow>
 </md>
 </alert></p>
 
@@ -36,21 +37,29 @@
     </image>
 </figure>
 
-<p>NOW FINISHING UP BY PUTTING THINGS BACK INTO X-LANGUAGE</p>
-<p>We rejoin the calculations above, already in progress:</p>
-<p><alert>(We start out in red ink for the "<m>\theta</m>-language" and will switch to blue for the final step when we translate back to "<m>x</m>-language.")  The integral is
+<p>Now we can finish up by putting the antiderivative formula back into <m>x</m>-language.  We rejoin the calculations above, already in progress:</p>
+<p><alert>(We start out in red ink for the "<m>\theta</m>-language" and will switch for the final step when we translate back to "<m>x</m>-language.")  The integral is
 <md>
-<mrow> \cdots \amp = \ln\left|\sec\theta + \tan\theta\right| + C </mrow>
+<mrow> {\color{red}{\cdots }} \amp {\color{red}{ = \ln\left|\sec\theta + \tan\theta\right| + C }} </mrow>
 <mrow> \amp = \ln\left|\frac{x}{5} + \frac{\sqrt{x^2-25}}{5}\right| + C. </mrow>
 </md>
 </alert></p>
 
-<p>NOW THE ARBITRARY CONSTANT MASHUP</p>
+<p><alert>A subtle point:</alert>  If you saw this problem in a textbook and looked up the answer in the back of the book, you might see the answer listed as <q><m>\int \frac{1}{\sqrt{x^2-25}}\,dx = \ln\left|x + \sqrt{x^2-25}\right| + C</m>.</q>  And that's not what we obtained!  Were we wrong?  Would that book be wrong?  Neither.  Using our algebra and logarithm-law skills, we note that our answer can be rewritten:  We have
+	<md>
+	   <mrow>\ln\left|\frac{x}{5} + \frac{\sqrt{x^2-25}}{5}\right| + C \amp = \ln\left|\frac{x + \sqrt{x^2-25}}{5}\right| + C</mrow>
+	   <mrow> \amp = \ln\left(\frac{\left|x + \sqrt{x^2-25}\right|}{\left|5\right|}\right) + C</mrow>
+	   <mrow> \amp = \ln\left(\left|x + \sqrt{x^2-25}\right|\right) - \ln\left(\left|5\right|\right) + C</mrow>
+	   <mrow> \amp = \ln\left(\left|x + \sqrt{x^2-25}\right|\right) + C^*,</mrow>
+	</md>
+where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we did there?  That was the <q>arbitrary constant mashup</q>!
+</p>
+	</solution>
       </example>
 
     <example>
-      <p><em>This was Example 2 from the class notes.)</em>  Evaluate <m>\int \frac{\sqrt{9-x^2}}{x^2}\,dx</m>.</p>
-      <p><alert><font color = "FF0000">(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)</font>
+      <statement><em>(This was Example 2 from the class notes.)</em>  Evaluate <m>\int \frac{\sqrt{9-x^2}}{x^2}\,dx</m>.</statement>
+      <solution><alert><font color = "FF0000">(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)</font>
 	<md>
 	   <mrow>{\color{red}{\hbox{Let } x\ }} \amp {\color{red}{ = 3\sin\theta,}} </mrow>
 	   <mrow>{\color{red}{\hbox{ so that } dx\ }} \amp {\color{red}{ = 3 \cos\theta\ d\theta.}} </mrow>
@@ -61,15 +70,15 @@
 		<li>AND <m>-\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}</m>.</li>
 	</ul>
 	</p>
-<p><alert>(Back to red ink now.)  The integral becomes
+<p><alert>(Back to red ink now, wherever the markup language will allow it.)  The integral becomes
 <md>
-<mrow> \int \frac{\sqrt{9-9\sin^2\theta}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta \amp = \int \frac{\sqrt{9 \cdot (1 - \sin^2\theta)}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta </mrow>
-<mrow> \amp = \int \frac{\sqrt{9} \cdot \sqrt{\cos^2\theta}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta </mrow>
-<mrow> \amp = \int \frac{\cos^2\theta}{\sin^2\theta}\ d\theta </mrow>
-<mrow> \amp = \int \left(\frac{\cos\theta}{\sin\theta}\right)^2\ d\theta </mrow>
-<mrow> \amp = \int \cot^2\theta\ d\theta </mrow>
-<mrow> \amp = \int (\csc^2\theta - 1)\ d\theta </mrow>
-<mrow> \amp = -\cot\theta - \theta + C. </mrow>
+<mrow> {\color{red}{\int \frac{\sqrt{9-9\sin^2\theta}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta }} \amp {\color{red}{ = \int \frac{\sqrt{9 \cdot (1 - \sin^2\theta)}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \int \frac{\sqrt{9} \cdot \sqrt{\cos^2\theta}}{9\sin^2\theta} \cdot 3 \cos\theta\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \int \frac{\cos^2\theta}{\sin^2\theta}\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \int \left(\frac{\cos\theta}{\sin\theta}\right)^2\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \int \cot^2\theta\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \int (\csc^2\theta - 1)\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = -\cot\theta - \theta + C. }} </mrow>
 </md>
 </alert></p>
 
@@ -85,39 +94,50 @@
     </image>
 </figure>
 
-<p>NOW FINISHING UP BY PUTTING THINGS BACK INTO X-LANGUAGE</p>
-<p><font color = "FF0000">We rejoin the calculations above, already in progress:</font></p>
-<p><alert>(We start out in red ink for the "<m>\theta</m>-language" and will switch to blue for the final step when we translate back to "<m>x</m>-language.")  The integral is
+<p>Now we can finish up by putting the antiderivative formula back into <m>x</m>-language.  We rejoin the calculations above, already in progress:</p>
+<p><alert>(We start out in red ink for the "<m>\theta</m>-language" and will switch for the final step when we translate back to "<m>x</m>-language.")  The integral is
 <md>
-<mrow> \cdots \amp = -\cot\theta - \theta + C </mrow>
+<mrow> {\color{red}{\cdots }} \amp {\color{red}{ = -\cot\theta - \theta + C }} </mrow>
 <mrow> \amp = -\frac{\sqrt{9-x^2}}{x} - \sin^{-1}\left(\frac{x}{3}\right) + C. </mrow>
 </md>
 </alert></p>
+	</solution>
       </example>
 
     <example>
-      <p>Evaluate <m>\int \frac{1}{(x^2-6x+11)^2}\,dx</m>. Note <m>x^2-6x+11=(x-3)^2+2</m>. Let <m>x-3=\sqrt{2}	an \theta</m>, so <m>dx=\sqrt{2}\sec^2 \theta\,d \theta</m>.</p>
-      <me>
-        <m>\int \frac{1}{((x-3)^2+2)^2}\,dx= \frac{\sqrt{2}}{4}\int \cos^2 \theta\,d \theta= \frac{\sqrt{2}}{8}\left( \theta+	f\frac{\sin 2 \theta}{2}
-ight)+C</m>
-      </me>
-      <p>Using <m>	an \theta= \frac{x-3}{\sqrt{2}}</m>, we obtain <m>\frac{\sqrt{2}}{8} rctan\!\left(\frac{x-3}{\sqrt{2}}
-ight)+\frac{x-3}{8((x-3)^2+2)}+C</m>.</p>
-      </example>
+      <statement><em>(This was Example 3 from the class notes.)</em>  Evaluate <m>\int \frac{1}{(x^2-6x+11)^2}\,dx</m>.</statement>
 
-    <example>
-      <p>Find the appropriate substitution and identity for each integral. You may need to nearly complete the square.</p>
+	<solution>
+	<p>Note first that <m>x^2-6x+11=(x-3)^2+2</m>. Then the integral can be written as
+<md> \int\ \frac{1}{((x-3)^2+2)^2}\ dx.</md></p>
+      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.  PreTeXt, the system used to typeset these notes, does not allow changing the color of a font.)
+	<md>
+	   <mrow>{\color{red}{\hbox{Let } x-3 }} \amp {\color{red}{ = \sqrt{2}\tan\theta,}}</mrow>
+	   <mrow>{\color{red}{\hbox{ so that } dx }} \amp {\color{red}{ = \sqrt{2} \sec^2\theta\ d\theta.}}</mrow>
+	</md></alert></p>
+<p>(And this was blue--a side note that was added after we antidifferentiated the <m>\theta</m>-term and immediately before we drew the right-triangle diagram.)  <em>NOTE that the "Let" statement is actually saying "Let <m>\theta</m> be <m>\tan^{-1}\left(\frac{x-3}{\sqrt{2}}\right)</m>."</em>  And recall that this means that
+	<ul>
+		<li><m>\frac{x-3}{\sqrt{2}} = \tan\theta</m></li>
+		<li>AND <m>-\frac{\pi}{2} \lt \theta \lt \frac{\pi}{2}</m>.</li>
+	</ul>
+	</p>
+<p><alert>(Back to red ink now, where the markup language will allow it.)  The integral becomes
+<md>
+<mrow> {\color{red}{\int \frac{1}{((\sqrt{2} \cdot \tan\theta)^2+2)^2} \cdot \sqrt{2} \sec^2\theta\ d\theta }} \amp {\color{red}{ = \int \frac{1}{(2 \cdot \tan^2\theta+2)^2} \cdot \sqrt{2} \sec^2\theta\ d\theta }}  </mrow>
+<mrow> \amp {\color{red}{ = \int \frac{1}{(2 \cdot (\tan^2\theta+1))^2} \cdot \sqrt{2} \sec^2\theta\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \int \frac{1}{4 \cdot \sec^2\theta} \cdot \sqrt{2} \sec^2\theta\ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \int \frac{1}{2\sqrt{2}} \cdot \frac{1}{\sec^2\theta} \ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \frac{1}{2\sqrt{2}} \cdot \int \cos^2\theta \ d\theta }} </mrow>
+<mrow> \amp {\color{red}{ = \frac{1}{2\sqrt{2}} \cdot \left(\frac{1}{2}\theta = \frac{1}{4}\sin(2\theta) + C_0\right) }} </mrow>
+<mrow> \amp {\color{red}{ = \frac{1}{2\sqrt{2}} \cdot \left(\frac{1}{2}\theta = \frac{1}{4} \cdot 2\sin\theta\cos\theta + C_0\right) }} </mrow>
+<mrow> \amp = \frac{1}{4\sqrt{2}}\tan^{-1}\left(\frac{x-3}{\sqrt{2}}\right) + \frac{1}{2\sqrt{2}} \cdot \frac{x-3}{(x-3)^2+2}} \cdot \frac{\sqrt{2}}{(x-3)^2+2}} + C </mrow>
+<mrow> \amp = \frac{1}{4\sqrt{2}}\tan^{-1}\left(\frac{x-3}{\sqrt{2}}\right) + \frac{x-3}{2\sqrt{x^2-6x+11}} + C. </mrow>
+</md>
+</alert></p>
 
-        <ul>
-         <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: let <m>2x=	an \theta</m> so <m>\sqrt{1+4x^2}=\sec \theta</m>.</li>
-         <li>(b) <m>\int \frac{1}{x^2\sqrt{16-x^2}}\,dx</m>: let <m>x=4\sin \theta</m>; <todo>Check algebra with the <m>1/x^2</m> factor</todo>.</li>
-         <li>(c) <m>\int \sqrt{x^2-9}\,dx</m>: let <m>x=3\sec \theta</m> so <m>\sqrt{x^2-9}=3	an \theta</m>.</li>
-         <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+1}}\,dx</m>: note <m>9x^2+6x+1=(3x+1)^2</m>. <todo>Confirm intended trig form vs. linear substitution</todo>.</li>
-        </ul>
+<p>(Blue ink again--a side note.)  Note that because of the restrictions on <m>\theta</m>, <m>\sec\theta</m> must be nonnegative, so that <m>\sqrt{(\sec\theta)^2} = \sec\theta</m>.  That was used in the above calculations to replace "<m>\sqrt{(\sec\theta)^2}</m>" with "<m>\sec\theta</m>."</p>
 
-
-        <p>To figure out how to put the antiderivative back into <m>x</m>-language, we use a right-triangle diagram:</p>
-
+<p>To figure out how to put the antiderivative back into <m>x</m>-language, we use a right-triangle diagram:</p>
     <figure xml:id = "figTrigSub03">
        <caption>A right-triangle diagram needed to finish Example 3.</caption>
       <image source = "images/RTDiagramforExample3.jpg" width ="60%">
@@ -125,6 +145,19 @@ ight)+\frac{x-3}{8((x-3)^2+2)}+C</m>.</p>
 	        <description>Reference triangles for angle theta lie in Quadrants One and Four.  In each Quadrant, the vertical leg has been labeled as x minus 3, the horizontal leg has been labeled as the square root of 2, and the resulting value for the hypotenuse is the square root of ((x minus 3)-squared plus (the square root of 2)-squared).</description>
       </image>
     </figure>
+
+	</solution>
+      </example>
+
+    <example>
+      <statement><em>(These were Examples 4 to 7 from the class notes.)</em>  Find the <q>milk equation</q> for each integral. You may need to <q>almost complete the square</q> to get a quadratic expression into one of the three appropriate forms.</statement>
+
+        <ul>
+         <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: Let <m>2x = \tan\theta</m>.  (<q>Then <m>2\,dx = \sec^2\theta\,d\theta</m>.\ \ldots</q>)</li>
+         <li>(b) <m>\int \frac{1}{x^2\sqrt{16-x^2}}\,dx</m>: Let <m>x = 4\sin\theta</m>.  (<q>Then <m>dx = 4\cos\theta\,d\theta</m>.\ \ldots</q>)</li>
+         <li>(c) <m>\int \sqrt{x^2-9}\,dx</m>: Let <m>x = 3\sec\theta</m>.  (<q>Then <m>dx = 3\sec\theta \tan\theta\,d\theta</m>.\ \ldots</q>)</li>
+         <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+2}}\,dx</m>: Note first that <m>9x^2+6x+2 = (3x + 1)^2 + 1</m>.  Let <m>3x + 1 = 1 \cdot \tan\theta</m>.  (<q>Then <m>3\,dx = \sec^2\theta\,d\theta</m>.\ \ldots</q>)</li>
+        </ul>
 
     </example>
 
