@@ -43,7 +43,12 @@
 
 <p>A Turing machine can handle any number of inputs, if we adopt a convention on how the inputs are to be rendered on the tape.  For instance, we can enter the ordered triple <m>3</m>, <m>0</m>, <m>4</m> as follows:</p>
 
-<center>PICTURE HERE</center>
+<figure xml:id = "TuringMachine">
+    <caption>A Turing machine with inputs 3, 0, and 4.</caption>
+    <image source = "images/TuringMachine.jpg" width ="60%">
+        <shortdescription>A Turing machine whose tape has four consecutive ones, a space, another one, another space, and five more consecutive ones.  The read-write head points at the leftmost one.</shortdescription>
+    </image>
+</figure>
 
 <p>Then we can consider functions from <m>\mathbb{N}^m</m> to <m>\mathbb{N}</m>, for any positive <m>m</m>.</p>
 
@@ -54,12 +59,10 @@
 <title>Connections between SETS and FUNCTIONS</title>
 
 <definition><p>The <alert>characteristic function of a set <m>A</m></alert> is the <alert>total</alert> function defined as follows:
-For any natural number <m>n</m>,
+For any natural number <m>n</m>, <m>\chi_A(n)</m> is
 <md>
-<mrow>\chi_A = \left\{
 <mrow> 1, \amp \hbox{ if } n \in A, \hbox{ and } </mrow>
 <mrow> 0, \amp \hbox{ if } n \not\in A. </mrow>
-\right.</mrow>
 </md>
 </p></definition>
 
