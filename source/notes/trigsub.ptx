@@ -6,7 +6,7 @@
       <example>
       <statement><em>(This was Example 1 from the class notes.  The markup language I'm using, "PreTeXt," has opinions about how things are supposed to be numbered.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</statement>
 	<solution>
-      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.  PreTeXt, the system used to typeset these notes, does not allow changing the color of a font.)
+      <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
 	<md>
 	   <mrow>{\color{red}{\hbox{Let } x }} \amp {\color{red}{ = 5\sec\theta,}}</mrow>
 	   <mrow>{\color{red}{\hbox{ so that } dx }} \amp {\color{red}{ = 5 \sec\theta \tan\theta\ d\theta.}}</mrow>
@@ -26,7 +26,7 @@
 </md>
 </alert></p>
 
-<p>(Blue ink again--a side note.)  Note that because of the restrictions on <m>\theta</m>, <m>\tan\theta</m> must be nonnegative, so that <m>\sqrt{(\tan\theta)^2} = \tan\theta</m>.  That was used in the above calculations to replace "<m>\sqrt{(\tan\theta)^2}</m>" with "<m>\tan\theta</m>."</p>
+<p>Note that because of the restrictions on <m>\theta</m>, <m>\tan\theta</m> must be nonnegative, so that <m>\sqrt{(\tan\theta)^2} = \tan\theta</m>.  That was used in the above calculations to replace "<m>\sqrt{(\tan\theta)^2}</m>" with "<m>\tan\theta</m>."</p>
 
 <p>To figure out how to put the antiderivative back into <m>x</m>-language, we use a right-triangle diagram:</p>
 <figure xml:id = "figTrigSub01">
@@ -150,7 +150,7 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
       </example>
 
     <example>
-      <statement><em>(These were Examples 4 to 7 from the class notes.)</em>  Find the <q>milk equation</q> for each integral. You may need to <q>almost complete the square</q> to get a quadratic expression into one of the three appropriate forms.</statement>
+      <statement><em>(These were Examples 4 to 7 from the class notes.)</em>  Find the <q>milk equation</q> for each integral. You may need to <q>almost complete the square</q> to get a quadratic expression into one of the three appropriate forms.
 
         <ul>
          <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: Let <m>2x = \tan\theta</m>.  (<q>Then <m>2\,dx = \sec^2\theta\,d\theta</m>.\ \ldots</q>)</li>
@@ -158,7 +158,7 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
          <li>(c) <m>\int \sqrt{x^2-9}\,dx</m>: Let <m>x = 3\sec\theta</m>.  (<q>Then <m>dx = 3\sec\theta \tan\theta\,d\theta</m>.\ \ldots</q>)</li>
          <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+2}}\,dx</m>: Note first that <m>9x^2+6x+2 = (3x + 1)^2 + 1</m>.  Let <m>3x + 1 = 1 \cdot \tan\theta</m>.  (<q>Then <m>3\,dx = \sec^2\theta\,d\theta</m>.\ \ldots</q>)</li>
         </ul>
-
+        </statement>
     </example>
 
 </section>
