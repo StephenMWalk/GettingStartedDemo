@@ -4,7 +4,7 @@
 <title>Calculus II handout: Trigonometric substitution</title>
 
       <example>
-      <statement><em>(This was really Example 1 from the class notes.  The markup language I'm using, "PreTeXt," has opinions about how things are supposed to be numbered.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</statement>
+      <statement><em>(This was really Example 1 from the class notes.  The markup language I'm using, "PreTeXt," imposes rules about how things are supposed to be numbered.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</statement>
 	<solution>
       <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
 	<md>

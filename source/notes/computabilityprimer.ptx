@@ -7,7 +7,7 @@
 	
 	<title>Sets</title>
 
-<definition><p><em>(Ignore the numbering of the items in this document.  The markup language I'm using, "PreTeXt," has opinions about how things are supposed to be numbered.)</em></p>
+<definition><p><em>(Ignore the numbering of the items in this document.  The markup language I'm using, "PreTeXt," imposes rules about how things are supposed to be numbered.)</em></p>
 	<p>A subset <m>A</m> of <m>\mathbb{N}</m> is said to be <alert>computable</alert> if there is an algorithm that will give a correct <q>Yes or No</q> answer to every question of the form <q>Is <m>n</m> in <m>A</m>?</q></p></definition>
 
 <p><alert>Examples:
@@ -68,15 +68,13 @@ For any natural number <m>n</m>, <m>\chi_A(n)</m> is
 
 <p><em>THINKING BACK TO COMPUTABLE SETS.</em>  It is not hard to see that a SET <m>A</m> of natural numbers is computable <em>IF AND ONLY IF</em> <alert>its characteristic function, <m>\chi_A</m>, is a computable function</alert>.</p>
 
-<p><em>THINKING BACK TO COMPUTABLY ENUMERABLE SETS.</em>  More properly, a subset <m>A</m> of <m>\mathbb{N}</m> is <alert>computably enumerable</alert> if it is the <em>domain</em> of some <alert>Turing-computable function</alert>.</p>
-
-<p>Here's the connection:
+<p><em>THINKING BACK TO COMPUTABLY ENUMERABLE SETS.</em>  More properly, a subset <m>A</m> of <m>\mathbb{N}</m> is <alert>computably enumerable</alert> if it is the <em>domain</em> of some <alert>Turing-computable function.  (That's the actual DEFINITION.)</alert></p>
+<p>(<em>NOTE:</em>  We imagine the algorithms to be given in some order---lexicographic, usually---and we denote the <alert>Turing-computable</alert> function that is computed by the <m>e</m>th algorithm as <q><m>\varphi_e</m>,</q> with the corresponding <alert>computably enumerable</alert> set denoted <q><m>W_e</m>.</q>)</p>
+<p>In case you're wondering, here's the connection between that official definition and the <q>listability</q> idea:
 <ul>
 	<li>Suppose that <m>f</m> is a Turing-computable function.  (We will show that there is an algorithm that lists the domain of <m>f</m>.)  Dovetail the Turing computations for input <m>1</m>, input <m>2</m>, input <m>3</m>, and so on.  Every time a computation converges on some input <m>n</m>, put <m>n</m> on the list.  Certainly the list then consists of all numbers in the domain of <m>f</m>.</li>
 </ul>
-The other direction takes more work!</p>
-
-<p>(<em>NOTE:</em>  We imagine the algorithms to be given in some order---lexicographic, usually---and we denote the <alert>Turing-computable</alert> function that is computed by the <m>e</m>th algorithm as <q><m>\varphi_e</m>,</q> with the corresponding <alert>computably enumerable</alert> set denoted <q><m>W_e</m>.</q>)</p>
+We can even prove that "if there is an algorithm that lists the elements of the set, then the set is the domain of some Turing-computable function"---but that other direction takes more work!  It depends on the ideas mentioned below.</p>
 
 <p>Historically, many different minds were working (in the 1920s and ’30s) on the question of what it meant for a function of natural numbers to be <q>effectively calculable.</q>
 	<ul>
