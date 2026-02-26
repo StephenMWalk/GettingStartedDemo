@@ -40,7 +40,7 @@
 <p>Now we can finish up by putting the antiderivative formula back into <m>x</m>-language.  We rejoin the calculations above, already in progress:</p>
 <p><alert>(We start out in red ink for the "<m>\theta</m>-language" and will switch for the final step when we translate back to "<m>x</m>-language.")  The integral is
 <md>
-<mrow> {\color{red}{\cdots }} \amp {\color{red}{ = \ln\left|\sec\theta + \tan\theta\right| + C }} </mrow>
+<mrow> {\color{red}{\cdots\ }} \amp {\color{red}{ = \ln\left|\sec\theta + \tan\theta\right| + C }} </mrow>
 <mrow> \amp = \ln\left|\frac{x}{5} + \frac{\sqrt{x^2-25}}{5}\right| + C. </mrow>
 </md>
 </alert></p>
@@ -97,7 +97,7 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
 <p>Now we can finish up by putting the antiderivative formula back into <m>x</m>-language.  We rejoin the calculations above, already in progress:</p>
 <p><alert>(We start out in red ink for the "<m>\theta</m>-language" and will switch for the final step when we translate back to "<m>x</m>-language.")  The integral is
 <md>
-<mrow> {\color{red}{\cdots }} \amp {\color{red}{ = -\cot\theta - \theta + C }} </mrow>
+<mrow> {\color{red}{\cdots\ }} \amp {\color{red}{ = -\cot\theta - \theta + C }} </mrow>
 <mrow> \amp = -\frac{\sqrt{9-x^2}}{x} - \sin^{-1}\left(\frac{x}{3}\right) + C. </mrow>
 </md>
 </alert></p>
