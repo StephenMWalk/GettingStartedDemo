@@ -4,7 +4,7 @@
 <title>Calculus II handout: Trigonometric substitution</title>
 
       <example>
-      <statement><em>(This was Example 1 from the class notes.  The markup language I'm using, "PreTeXt," has opinions about how things are supposed to be numbered.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</statement>
+      <statement><em>(This was really Example 1 from the class notes.  The markup language I'm using, "PreTeXt," has opinions about how things are supposed to be numbered.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</statement>
 	<solution>
       <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
 	<md>
@@ -58,7 +58,7 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
       </example>
 
     <example>
-      <statement><em>(This was Example 2 from the class notes.)</em>  Evaluate <m>\int \frac{\sqrt{9-x^2}}{x^2}\,dx</m>.</statement>
+      <statement><em>(This was really Example 2 from the class notes.)</em>  Evaluate <m>\int \frac{\sqrt{9-x^2}}{x^2}\,dx</m>.</statement>
       <solution><p><alert><font color = "FF0000">(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)</font>
 	<md>
 	   <mrow>{\color{red}{\hbox{Let } x\ }} \amp {\color{red}{ = 3\sin\theta,}} </mrow>
