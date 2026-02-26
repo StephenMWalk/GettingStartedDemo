@@ -58,7 +58,7 @@ For any natural number <m>n</m>,
 <md>
 <mrow>\chi_A = \left\{
 <mrow> 1, \amp \hbox{ if } n \in A, \hbox{ and } </mrow>
-<mrow> 0, \amp \hbox{ if } n \not\in A. </mrow></md>
+<mrow> 0, \amp \hbox{ if } n \not\in A. </mrow>
 \right.</mrow>
 </md>
 </p></definition>
