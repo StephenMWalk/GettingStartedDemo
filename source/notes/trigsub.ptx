@@ -128,10 +128,10 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
 <mrow> \amp {\color{red}{ = \int \frac{1}{4 \cdot \sec^4\theta} \cdot \sqrt{2} \sec^2\theta\ d\theta }} </mrow>
 <mrow> \amp {\color{red}{ = \int \frac{1}{2\sqrt{2}} \cdot \frac{1}{\sec^2\theta} \ d\theta }} </mrow>
 <mrow> \amp {\color{red}{ = \frac{1}{2\sqrt{2}} \cdot \int \cos^2\theta \ d\theta }} </mrow>
-<mrow> \amp {\color{red}{ = \frac{1}{2\sqrt{2}} \cdot \left(\frac{1}{2}\theta - \frac{1}{4}\sin(2\theta) + C_0\right) }} </mrow>
-<mrow> \amp {\color{red}{ = \frac{1}{2\sqrt{2}} \cdot \left(\frac{1}{2}\theta - \frac{1}{4} \cdot 2\sin\theta\cos\theta + C_0\right) }} </mrow>
+<mrow> \amp {\color{red}{ = \frac{1}{2\sqrt{2}} \cdot \left(\frac{1}{2}\theta + \frac{1}{4}\sin(2\theta) + C_0\right) }} </mrow>
+<mrow> \amp {\color{red}{ = \frac{1}{2\sqrt{2}} \cdot \left(\frac{1}{2}\theta + \frac{1}{4} \cdot 2\sin\theta\cos\theta + C_0\right) }} </mrow>
 <mrow> \amp = \frac{1}{4\sqrt{2}}\tan^{-1}\left(\frac{x-3}{\sqrt{2}}\right) + \frac{1}{2\sqrt{2}} \cdot \frac{x-3}{\sqrt{(x-3)^2+2}} \cdot \frac{\sqrt{2}}{\sqrt{(x-3)^2+2}} + C </mrow>
-<mrow> \amp = \frac{1}{4\sqrt{2}}\tan^{-1}\left(\frac{x-3}{\sqrt{2}}\right) + \frac{x-3}{2\sqrt{x^2-6x+11}} + C. </mrow>
+<mrow> \amp = \frac{1}{4\sqrt{2}}\tan^{-1}\left(\frac{x-3}{\sqrt{2}}\right) + \frac{x-3}{2 /cdot (x^2-6x+11)} + C. </mrow>
 </md>
 </alert></p>
 
