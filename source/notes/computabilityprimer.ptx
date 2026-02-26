@@ -20,7 +20,8 @@
 
 <definition><p>A subset <m>A</m> of <m>\mathbb{N}</m> is said to be <alert>computably enumerable</alert> if there is an algorithm that can <alert>list its elements---or, alternatively, if there is an algorithm that can give all correct <q>Yes</q> answers to questions of the form <q>Is <m>n</m> in <m>A</m>?</q> but no <q>No</q> answers</alert>.</p></definition>
 
-<proposition><p>A set <m>A</m> is computable if and only if <alert>both <m>A</m> and its complement <m>A^c</m> are computably enumerable</alert>.</p></proposition>
+<proposition><p>A set <m>A</m> is computable if and only if <alert>both <m>A</m> and its complement <m>A^c</m> are computably enumerable</alert>.</p>
+<p>Click on <q>Proof</q> below to see a proof of this Proposition.)</p></proposition>
 
 <proof>
 <p><alert>(<q><m>\Longrightarrow</m>.</q>)</alert></p>
@@ -56,8 +57,8 @@
 For any natural number <m>n</m>,
 <md>
 \chi_A = \left\{
-<mrow> 1, \amp \hbox{ if } n \in A, \hbox{ and } </mrow>
-<mrow> 0, \amp \hbox{ if } n \not\in A. </mrow>
+<md><mrow> 1, \amp \hbox{ if } n \in A, \hbox{ and } </mrow>
+<mrow> 0, \amp \hbox{ if } n \not\in A. </mrow></md>
 \right.
 </md>
 </p></definition>
