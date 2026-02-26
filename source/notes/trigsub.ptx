@@ -137,7 +137,6 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
 
 <p>(Blue ink again--a side note.)  Note that because of the restrictions on <m>\theta</m>, <m>\sec\theta</m> must be nonnegative, so that <m>\sqrt{(\sec\theta)^2} = \sec\theta</m>.  That was used in the above calculations to replace "<m>\sqrt{(\sec\theta)^2}</m>" with "<m>\sec\theta</m>."  Below is the diagram that helped us put the antiderivative back into <m>x</m>-language.</p>
 
-<p>To figure out how to put the antiderivative back into <m>x</m>-language, we use a right-triangle diagram:</p>
     <figure xml:id = "figTrigSub03">
        <caption>A right-triangle diagram needed to finish Example 3.</caption>
       <image source = "images/RTDiagramforExample3.jpg" width ="60%">
@@ -153,10 +152,10 @@ where <m>C^*</m> is a new name for <q><m>-\ln 5 + C</m>.</q>  Do you see what we
       <statement><em>(These were Examples 4 to 7 from the class notes.)</em>  Find the <q>milk equation</q> for each integral. You may need to <q>almost complete the square</q> to get a quadratic expression into one of the three appropriate forms.
 
         <ul>
-         <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: Let <m>2x = \tan\theta</m>.  (<q>Then <m>2\,dx = \sec^2\theta\,d\theta.\,\ldots</m></q>)</li>
-         <li>(b) <m>\int \frac{1}{x^2\sqrt{16-x^2}}\,dx</m>: Let <m>x = 4\sin\theta</m>.  (<q>Then <m>dx = 4\cos\theta\,d\theta.\,\ldots</m></q>)</li>
-         <li>(c) <m>\int \sqrt{x^2-9}\,dx</m>: Let <m>x = 3\sec\theta</m>.  (<q>Then <m>dx = 3\sec\theta \tan\theta\,d\theta.\,\ldots</m></q>)</li>
-         <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+2}}\,dx</m>: Note first that <m>9x^2+6x+2 = (3x + 1)^2 + 1</m>.  Let <m>3x + 1 = 1 \cdot \tan\theta</m>.  (<q>Then <m>3\,dx = \sec^2\theta\,d\theta.\,\ldots</m></q>)</li>
+         <li>(a) <m>\int \frac{1}{\sqrt{1+4x^2}}\,dx</m>: Let <m>2x = \tan\theta</m>.  (<q>Then <m>2\,dx = \sec^2\theta\,d\theta.\,\ldots\,</m></q>)</li>
+         <li>(b) <m>\int \frac{1}{x^2\sqrt{16-x^2}}\,dx</m>: Let <m>x = 4\sin\theta</m>.  (<q>Then <m>dx = 4\cos\theta\,d\theta.\,\ldots\,</m></q>)</li>
+         <li>(c) <m>\int \sqrt{x^2-9}\,dx</m>: Let <m>x = 3\sec\theta</m>.  (<q>Then <m>dx = 3\sec\theta \tan\theta\,d\theta.\,\ldots\,</m></q>)</li>
+         <li>(d) <m>\int \frac{1}{\sqrt{9x^2+6x+2}}\,dx</m>: Note first that <m>9x^2+6x+2 = (3x + 1)^2 + 1</m>.  Let <m>3x + 1 = 1 \cdot \tan\theta</m>.  (<q>Then <m>3\,dx = \sec^2\theta\,d\theta.\,\ldots\,</m></q>)</li>
         </ul>
         </statement>
     </example>

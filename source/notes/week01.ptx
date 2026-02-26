@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="notes-week-01">
-  <title>A quiz</title>
+  <title>A placeholder file</title>
 
   <introduction>
     <p>
-      When in doubt, just change the details of the file that's already there.  Dangerous, though--what if I mess it up and can't get the original back?
+      Line here
     </p>
   </introduction>
 
@@ -13,7 +13,7 @@
   <subsection>
     <title>Monday 8/22</title>
 
-    <p>I just discovered I had been typing in the "introduction" part.  Let's try making changes here instead.  But why doesn't the "introduction" show up in the deployed html file?
+    <p>Line here
     </p>
   </subsection>
 

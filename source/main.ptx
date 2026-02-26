@@ -13,14 +13,6 @@
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
 
-    <chapter xml:id="course-documents">
-      <title>Course Documents (ignore this--it came with the template)</title>
-
-      <!-- Course syllabus -->
-      <xi:include href="./syllabus/syllabus.ptx" />
-      <!-- Other documents could go here, like a schedule, project description, etc. -->
-    </chapter>
-
     <chapter xml:id="course-notes">
       <title>Some handout keys</title>
 
@@ -30,17 +22,24 @@
         </p>
       </introduction>
 
-      <xi:include href="./notes/week01.ptx"/>
-      <xi:include href="./notes/week02.ptx"/>
-      <xi:include href="./notes/tryquiz.ptx"/>
       <xi:include href="./notes/regionsbetweenhandout01.ptx"/>
       <xi:include href="./notes/paramexp.ptx"/>
       <xi:include href="./notes/trigsub.ptx"/>
       <xi:include href="./notes/computabilityprimer.ptx"/>
+      <xi:include href="./notes/week01.ptx"/>
+      <xi:include href="./notes/week02.ptx"/>
+      <xi:include href="./notes/tryquiz.ptx"/>
       <!-- etc. -->
 
     </chapter>
 
+    <chapter xml:id="course-documents">
+      <title>Course Documents (ignore this--it came with the template)</title>
+
+      <!-- Course syllabus -->
+      <xi:include href="./syllabus/syllabus.ptx" />
+      <!-- Other documents could go here, like a schedule, project description, etc. -->
+    </chapter>
 
     <chapter xml:id="activities">
       <title>In-Class Activities (ignore this part also)</title>
@@ -58,13 +57,13 @@
     </chapter>
 
     <chapter xml:id="handouts">
-      <title>Handouts</title>
+      <title>Handouts (also ignore)</title>
       <!-- Include handouts -->
       <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
     </chapter>
 
     <chapter xml:id="homework">
-      <title>Homework (also ignore)</title>
+      <title>Homework (umm . . . yeah, ignore this part too)</title>
 
       <!-- Include homework files -->
       <!--<xi:include href="./homework/homework01.ptx"/>-->
