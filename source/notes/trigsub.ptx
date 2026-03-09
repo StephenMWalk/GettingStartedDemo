@@ -4,14 +4,14 @@
 <title>Calculus II handout: Trigonometric substitution</title>
 
       <example>
-      <statement><em>(This was really Example 1 from the class notes.  The markup language I'm using, "PreTeXt," imposes rules about how things are supposed to be numbered.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</statement>
+      <statement><em>(This was really <font color = "FF0000">Example 1</font> from the class notes.  The markup language I'm using, "PreTeXt," imposes rules about how things are supposed to be numbered.)</em>  Evaluate <m>\int \frac{1}{\sqrt{x^2-25}}\,dx</m>.</statement>
 	<solution>
       <p><alert>(The following was written in red on the class notes, which is the color that signifies we are working with respect to <m>\theta</m>.)
 	<md>
 	   <mrow>{\color{red}{\hbox{Let } x }} \amp {\color{red}{ = 5\sec\theta,}}</mrow>
 	   <mrow>{\color{red}{\hbox{ so that } dx }} \amp {\color{red}{ = 5 \sec\theta \tan\theta\ d\theta.}}</mrow>
 	</md></alert></p>
-<p>(And this was blue in the class notes--a side note that was added after we antidifferentiated the <m>\theta</m>-term and immediately before we drew the right-triangle diagram.)  <em>NOTE that the "Let" statement is actually saying "Let <m>\theta</m> be <m>\sec^{-1}\left(\frac{x}{5}\right)</m>."</em>  And recall that this means that
+<p>(And this was blue in the <font color = "FF0000">class notes</font>--a side note that was added after we antidifferentiated the <m>\theta</m>-term and immediately before we drew the right-triangle diagram.)  <em>NOTE that the "Let" statement is actually saying "Let <m>\theta</m> be <m>\sec^{-1}\left(\frac{x}{5}\right)</m>."</em>  And recall that this means that
 	<ul>
 		<li><m>\frac{x}{5} = \sec\theta</m></li>
 		<li>AND (either <m>0 \leq \theta \lt \frac{\pi}{2}</m> or <m>\pi \leq \theta \lt \frac{3\pi}{2}</m>).</li>
