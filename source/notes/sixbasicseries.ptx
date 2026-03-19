@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sixbasicseriesmq" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title><p>Mini-review of course topics: [NUMERICAL SERIES]  The six basic series.</p></title>
+<title>Mini-review of course topics: <br> [NUMERICAL SERIES]  The six basic series.</title>
 
 <p><em>The overall idea:  Believe it or not, it DOES make sense to consider <q>adding up an infinite list of numbers</q>:  We can take an existing or <q>underlying</q> sequence, create a NEW sequence of <q>partial sums,</q> and see whether that sequence of partial sums has a limit.  We have to be careful not to assume things like commutativity or associativity--that is, we can't assume that presenting the original sequence terms in a different order will give us the same sum, and we can't assume that grouping them different ways will give us the same sum.</em></p>
 
-<p>Memory work---do this <em>NOW</em>, <em>OUT LOUD</em>:
+<p>Memory work--do these <em>NOW</em>, <em>OUT LOUD</em>:
     <ul>
         <li>  <em>STATE</em> the geometric series sum formula.</li>
         <li>  <em>TELL</em> what values of <m>p</m> lead to convergent <m>p</m>-series and what values of <m>p</m> lead to divergent <m>p</m>-series.</li>
         <li>  <em>STATE</em> the Divergence Test.</li>
-        <li>  <em>TELL</em> why the converse to the Divergence Test (which would be <q>If the underlying sequence of a series has a limit of <m>0</m>, then the series converges</q>) is <em>FALSE</em>, by giving a counterexample.  (The harmonic series is a good counterexample!)</li>
+        <li>  <em>TELL</em> why the converse to the Divergence Test (which would be <q>If the underlying sequence of a series has a limit of <m>0</m>, then the series converges</q>) is <em>FALSE</em>, by giving a counterexample.  (<em>Spoiler:</em>  The harmonic series is a good counterexample--probably the best one!)</li>
     </ul>
 For the quiz, be ready to do the following:
     <ul>
@@ -23,7 +23,7 @@ For the quiz, be ready to do the following:
                 <li>  a telescoping series, and</li>
                 <li>  a series whose underlying sequence <em>does NOT</em> converge to 0.</li>
             </ul>
-        You will also need to tell whether each series <em>CONVERGES</em> or <em>>DIVERGES</em>.
+        You will also need to tell whether each series <em>CONVERGES</em> or <em>DIVERGES</em>.
 
         Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly</em> (generally the geometric series--<em>if</em>> it converges--or the telescoping series) and tell <em>what</em> that exact sum is.</li>
     </ul></p>
