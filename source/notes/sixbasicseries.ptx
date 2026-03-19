@@ -4,7 +4,7 @@
 <title><p>Mini-review of course topics:</p>
 <p>[NUMERICAL SERIES]  The six basic series.</p></title>
 
-<p><em>The overall idea:  Believe it or not, it DOES make sense to consider <q>adding up an infinite list of numbers</q>:  We can take an existing or <q>underlying</q> sequence, create a NEW sequence of <q>partial sums,</q> and see whether that sequence of partial sums has a limit.  We have to be careful not to assume things like commutativity or associativity---that is, we can't assume that presenting the original sequence terms in a different order will give us the same sum, and we can't assume that grouping them different ways will give us the same sum.</em></p>
+<p><em>The overall idea:  Believe it or not, it DOES make sense to consider <q>adding up an infinite list of numbers</q>:  We can take an existing or <q>underlying</q> sequence, create a NEW sequence of <q>partial sums,</q> and see whether that sequence of partial sums has a limit.  We have to be careful not to assume things like commutativity or associativity--that is, we can't assume that presenting the original sequence terms in a different order will give us the same sum, and we can't assume that grouping them different ways will give us the same sum.</em></p>
 
 <p>Memory work---do this <em>NOW</em>, <em>OUT LOUD</em>:
     <ul>
@@ -26,7 +26,7 @@ For the quiz, be ready to do the following:
             </ul>
         You will also need to tell whether each series <em>CONVERGES</em> or <em>>DIVERGES</em>.
 
-        Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly} (generally the geometric series---<em>if} it converges---or the telescoping series) and tell <em>what} that exact sum is.</li>
+        Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly</em> (generally the geometric series--<em>if</em>> it converges--or the telescoping series) and tell <em>what</em> that exact sum is.</li>
     </ul></p>
 
 <subsection><title>Example</title>
