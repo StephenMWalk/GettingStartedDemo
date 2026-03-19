@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sixbasicseriesmq" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Mini-review of course topics: <br></br> [NUMERICAL SERIES]  The six basic series.</title>
+<title>Mini-review of course topics: [NUMERICAL SERIES]  The six basic series</title>
 
 <p><em>The overall idea:  Believe it or not, it DOES make sense to consider <q>adding up an infinite list of numbers</q>:  We can take an existing or <q>underlying</q> sequence, create a NEW sequence of <q>partial sums,</q> and see whether that sequence of partial sums has a limit.  We have to be careful not to assume things like commutativity or associativity--that is, we can't assume that presenting the original sequence terms in a different order will give us the same sum, and we can't assume that grouping them different ways will give us the same sum.</em></p>
 
