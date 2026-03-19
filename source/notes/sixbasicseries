@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sixbasicseriesmq" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><p>Mini-review of course topics:</p>
+<p>[NUMERICAL SERIES]  The six basic series.</p></title>
+
+<p><em>The overall idea:  Believe it or not, it DOES make sense to consider <q>adding up an infinite list of numbers</q>:  We can take an existing or <q>underlying</q> sequence, create a NEW sequence of <q>partial sums,</q> and see whether that sequence of partial sums has a limit.  We have to be careful not to assume things like commutativity or associativity---that is, we can't assume that presenting the original sequence terms in a different order will give us the same sum, and we can't assume that grouping them different ways will give us the same sum.</em></p>
+
+<p>Memory work---do this <em>NOW</em>, <em>OUT LOUD}:
+    <ul>
+        <li>  <em>STATE</em> the geometric series sum formula.</li>
+        <li>  <em>TELL</em> what values of <m>p</m> lead to convergent <m>p</m>-series and what values of <m>p</m> lead to divergent <m>p</m>-series.</li>
+        <li>  <em>STATE</em> the Divergence Test.</li>
+        <li>  <em>TELL</em> why the converse to the Divergence Test (which would be <q>If the underlying sequence of a series has a limit of <m>0</m>, then the series converges</q>) is <em>FALSE</em>, by giving a counterexample.  (The harmonic series is a good counterexample!)</li>
+    </ul>
+For the quiz, be ready to do the following:
+    <ul>
+        <li>  You will be given a general formula and the first few specific terms of six series--one of <em>each</em> type.  You will need to tell which is which:
+            <ul>
+                <li>  a geometric series (you will need to tell what the common ratio is),</li>
+                <li>  the harmonic series,</li>
+                <li>  the series <m>\sum (-1)^n</m>,</li>
+                <li>  a <m>p</m>-series (you will need to tell what <m>p</m> is),</li>
+                <li>  a telescoping series, and</li>
+                <li>  a series whose underlying sequence <em>does {NOT</em>} converge to 0.</li>
+            </ul>
+        You will also need to tell whether each series {CONVERGES</em> or {DIVERGES</em>.
+
+        Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly} (generally the geometric series---<em>if} it converges---or the telescoping series) and tell <em>what} that exact sum is.</li>
+    </ul></p>
+
+<subsection><title>Example</title>
+
+<example><p>Complete ALL three <q>bullets.</q>
+<ul>
+<li>  For each series, circle <q>\textsc{has} a finite sum</q> or <q>has \textsc{no} finite sum</q> as appropriate.</li>
+<li>  For at least <em>ONE</em> series with a finite sum, give the sum exactly.</li>
+<li>  Then fill in the blanks in the statements below the table.</li>
+</ul></p>
+
+<table>
+  <tabular halign="center" top="medium">
+    <row bottom="medium">
+      <cell left="medium" right="medium">
+        1
+      </cell>
+      <cell right="medium">
+        <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots}</m>
+      </cell>
+      <cell right="medium">
+          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell left="medium" right="medium">
+        2
+      </cell>
+      <cell right="medium">
+        <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{n(n+1)} = \frac{1}{2} + \frac{1}{6} + \frac{1}{12} + \frac{1}{20} + \cdots}</m>  (note that <m>\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}</m>)
+      </cell>
+      <cell right="medium">
+          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell left="medium" right="medium">
+        3
+      </cell>
+      <cell right="medium">
+          <underscore />n=0<circumflex /> =  +  +  +  + <m></m>
+      </cell>
+      <cell right="medium">
+          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell left="medium" right="medium">
+        4
+      </cell>
+      <cell right="medium">
+        <m>\displaystyle{\sum_{n=0}^{\infty}\,(-1)^n = 1 + (-1) + 1 + (-1) + \cdots}</m>
+      </cell>
+      <cell right="medium">
+          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell left="medium" right="medium">
+        5
+      </cell>
+      <cell right="medium">
+        <m>\displaystyle{\sum_{n=0}^{\infty}\,5\left(\frac{3}{7}\right)^n = 5 + \frac{15}{7} + \frac{45}{49} + \frac{135}{343} + \cdots}</m>
+      </cell>
+      <cell right="medium">
+          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell left="medium" right="medium">
+        6
+      </cell>
+      <cell right="medium">
+        <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{\sqrt{n}} = 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}} + \frac{1}{\sqrt{4}} + \cdots}</m>
+      </cell>
+      <cell right="medium">
+          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+<p><alert>Your responses:</alert>
+<ul>
+<li>  Series #<u>\ \ \ </u> is a geometric series with first term <u>\ \ \ \ \ \ \ </u> and common ratio <u>\ \ \ \ \ \ \ </u>.</li>
+
+<li>  Series #<u>\ \ \ </u> is a telescoping series.</li>
+
+<li>  Series #<u>\ \ \ </u> is a <m>p</m>-series (<em>NOT</em> the harmonic series) with <m>p</m> = <u>\ \ \ \ \ \ \ </u>.</li>
+
+<li>  Series #<u>\ \ \ </u> is the harmonic series.</li>
+
+<li>  Series #<u>\ \ \ </u> has a sequence of partial sums that bounce back and forth between 0 and 1.</li>
+
+<li>  Series #<u>\ \ \ </u> has an underlying sequence whose limit is <u>\ \ \ \ \ \ \ </u>, <em>NOT</em> 0.</li>
+</ul>
+</p>
+
+</example>
+
+</subsection>
+
+</section>
