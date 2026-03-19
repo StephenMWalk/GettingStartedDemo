@@ -6,7 +6,7 @@
 
 <p><em>The overall idea:  Believe it or not, it DOES make sense to consider <q>adding up an infinite list of numbers</q>:  We can take an existing or <q>underlying</q> sequence, create a NEW sequence of <q>partial sums,</q> and see whether that sequence of partial sums has a limit.  We have to be careful not to assume things like commutativity or associativity---that is, we can't assume that presenting the original sequence terms in a different order will give us the same sum, and we can't assume that grouping them different ways will give us the same sum.</em></p>
 
-<p>Memory work---do this <em>NOW</em>, <em>OUT LOUD}:
+<p>Memory work---do this <em>NOW</em>, <em>OUT LOUD</em>:
     <ul>
         <li>  <em>STATE</em> the geometric series sum formula.</li>
         <li>  <em>TELL</em> what values of <m>p</m> lead to convergent <m>p</m>-series and what values of <m>p</m> lead to divergent <m>p</m>-series.</li>
@@ -22,9 +22,9 @@ For the quiz, be ready to do the following:
                 <li>  the series <m>\sum (-1)^n</m>,</li>
                 <li>  a <m>p</m>-series (you will need to tell what <m>p</m> is),</li>
                 <li>  a telescoping series, and</li>
-                <li>  a series whose underlying sequence <em>does {NOT</em>} converge to 0.</li>
+                <li>  a series whose underlying sequence <em>does NOT</em> converge to 0.</li>
             </ul>
-        You will also need to tell whether each series {CONVERGES</em> or {DIVERGES</em>.
+        You will also need to tell whether each series <em>CONVERGES</em> or <em>>DIVERGES</em>.
 
         Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly} (generally the geometric series---<em>if} it converges---or the telescoping series) and tell <em>what} that exact sum is.</li>
     </ul></p>
