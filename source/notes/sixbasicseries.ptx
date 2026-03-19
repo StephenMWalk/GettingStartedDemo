@@ -58,7 +58,7 @@ For the quiz, be ready to do the following:
         <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots}</m>
       </cell>
       <cell right="medium">
-          has a finite sum (sum <fillin @characters=11 />) OR has no finite sum
+          has a finite sum (sum <fillin/>) OR has no finite sum
       </cell>
     </row>
     <row bottom="medium">
