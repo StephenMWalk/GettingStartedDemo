@@ -3,18 +3,18 @@
 <section xml:id="sixbasicseriesmq" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Mini-review of course topics: [NUMERICAL SERIES]  The six basic series</title>
 
-<p><em>The overall idea:  Believe it or not, it DOES make sense to consider <q>adding up an infinite list of numbers</q>:  We can take an existing or <q>underlying</q> sequence, create a NEW sequence of <q>partial sums,</q> and see whether that sequence of partial sums has a limit.  We have to be careful not to assume things like commutativity or associativity--that is, we can't assume that presenting the original sequence terms in a different order will give us the same sum, and we can't assume that grouping them different ways will give us the same sum.</em></p>
+<p><em>The overall idea:  Believe it or not, it DOES make sense to consider <q>adding up an infinite list of numbers</q>:  We can take an existing or <q>underlying</q> sequence, create a NEW sequence of <q>partial sums,</q> and see whether that sequence of partial sums has a limit.  We have to be careful not to assume things like commutativity or associativity<mdash/>that is, we can't assume that presenting the original sequence terms in a different order will give us the same sum, and we can't assume that grouping them different ways will give us the same sum.</em></p>
 
-<p>Memory work--do these <em>NOW</em>, <em>OUT LOUD</em>:
+<p>Memory work<mdash/>do these <em>NOW</em>, <em>OUT LOUD</em>:
     <ul>
         <li>  <em>STATE</em> the geometric series sum formula.</li>
         <li>  <em>TELL</em> what values of <m>p</m> lead to convergent <m>p</m>-series and what values of <m>p</m> lead to divergent <m>p</m>-series.</li>
         <li>  <em>STATE</em> the Divergence Test.</li>
-        <li>  <em>TELL</em> why the converse to the Divergence Test (which would be <q>If the underlying sequence of a series has a limit of <m>0</m>, then the series converges</q>) is <em>FALSE</em>, by giving a counterexample.  (<em>Spoiler:</em>  The harmonic series is a good counterexample--probably the best one!)</li>
+        <li>  <em>TELL</em> why the converse to the Divergence Test (which would be <q>If the underlying sequence of a series has a limit of <m>0</m>, then the series converges</q>) is <em>FALSE</em>, by giving a counterexample.  (<em>Spoiler:</em>  The harmonic series is a good counterexample<mdash/>probably the best one!)</li>
     </ul>
 For the quiz, be ready to do the following:
     <ul>
-        <li>  <p>You will be given a general formula and the first few specific terms of six series--one of <em>each</em> type.  You will need to tell which is which: </p>
+        <li>  <p>You will be given a general formula and the first few specific terms of six series<mdash/>one of <em>each</em> type.  You will need to tell which is which: </p>
             <ul>
                 <li>  a geometric series (you will need to tell what the common ratio is),</li>
                 <li>  the harmonic series,</li>
@@ -25,7 +25,7 @@ For the quiz, be ready to do the following:
             </ul>
         <p>You will also need to tell whether each series <em>CONVERGES</em> or <em>DIVERGES</em>.</p>
 
-        <p>Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly</em> (generally the geometric series--<em>if</em> it converges--or the telescoping series) and tell <em>what</em> that exact sum is.</p></li>
+        <p>Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly</em> (generally the geometric series<mdash/><em>if</em> it converges<mdash/>or the telescoping series) and tell <em>what</em> that exact sum is.</p></li>
     </ul></p>
 
 <subsection><title>Example</title>
@@ -39,7 +39,7 @@ For the quiz, be ready to do the following:
 
 <table>
   <tabular halign="center" top="medium">
-    <row header="yes">
+    <row bottom = "medium" header="yes">
       <cell left="medium" right="medium">
         series
       </cell>
@@ -58,7 +58,7 @@ For the quiz, be ready to do the following:
         <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots}</m>
       </cell>
       <cell right="medium">
-          has a finite sum: <u>      </u> has no finite sum
+          has a finite sum: <fillin/> has no finite sum
       </cell>
     </row>
     <row bottom="medium">
@@ -69,7 +69,7 @@ For the quiz, be ready to do the following:
         <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{n(n+1)} = \frac{1}{2} + \frac{1}{6} + \frac{1}{12} + \frac{1}{20} + \cdots}</m>  (note that <m>\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}</m>)
       </cell>
       <cell right="medium">
-          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+          has a finite sum: <fillin/> has no finite sum
       </cell>
     </row>
     <row bottom="medium">
@@ -80,7 +80,7 @@ For the quiz, be ready to do the following:
           <underscore />n=0<circumflex /> =  +  +  +  + <m></m>
       </cell>
       <cell right="medium">
-          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+          has a finite sum: <fillin/> has no finite sum
       </cell>
     </row>
     <row bottom="medium">
@@ -91,7 +91,7 @@ For the quiz, be ready to do the following:
         <m>\displaystyle{\sum_{n=0}^{\infty}\,(-1)^n = 1 + (-1) + 1 + (-1) + \cdots}</m>
       </cell>
       <cell right="medium">
-          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+          has a finite sum: <fillin/> has no finite sum
       </cell>
     </row>
     <row bottom="medium">
@@ -102,7 +102,7 @@ For the quiz, be ready to do the following:
         <m>\displaystyle{\sum_{n=0}^{\infty}\,5\left(\frac{3}{7}\right)^n = 5 + \frac{15}{7} + \frac{45}{49} + \frac{135}{343} + \cdots}</m>
       </cell>
       <cell right="medium">
-          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+          has a finite sum: <fillin/> has no finite sum
       </cell>
     </row>
     <row bottom="medium">
@@ -113,7 +113,7 @@ For the quiz, be ready to do the following:
         <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{\sqrt{n}} = 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}} + \frac{1}{\sqrt{4}} + \cdots}</m>
       </cell>
       <cell right="medium">
-          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+          has a finite sum: <fillin/> has no finite sum
       </cell>
     </row>
   </tabular>
@@ -121,17 +121,17 @@ For the quiz, be ready to do the following:
 
 <p><alert>Your responses:</alert>
 <ul>
-<li>  Series #<u>\ \ \ </u> is a geometric series with first term <u>\ \ \ \ \ \ \ </u> and common ratio <u>\ \ \ \ \ \ \ </u>.</li>
+<li>  Series #<fillin/> is a geometric series with first term <fillin/> and common ratio <fillin/>.</li>
 
-<li>  Series #<u>\ \ \ </u> is a telescoping series.</li>
+<li>  Series #<fillin/> is a telescoping series.</li>
 
-<li>  Series #<u>\ \ \ </u> is a <m>p</m>-series (<em>NOT</em> the harmonic series) with <m>p</m> = <u>\ \ \ \ \ \ \ </u>.</li>
+<li>  Series #<fillin/> is a <m>p</m>-series (<em>NOT</em> the harmonic series) with <m>p</m> = <fillin/>.</li>
 
-<li>  Series #<u>\ \ \ </u> is the harmonic series.</li>
+<li>  Series #<fillin/> is the harmonic series.</li>
 
-<li>  Series #<u>\ \ \ </u> has a sequence of partial sums that bounce back and forth between 0 and 1.</li>
+<li>  Series #<fillin/> has a sequence of partial sums that bounce back and forth between 0 and 1.</li>
 
-<li>  Series #<u>\ \ \ </u> has an underlying sequence whose limit is <u>\ \ \ \ \ \ \ </u>, <em>NOT</em> 0.</li>
+<li>  Series #<fillin/> has an underlying sequence whose limit is <fillin/>, <em>NOT</em> 0.</li>
 </ul>
 </p>
 
