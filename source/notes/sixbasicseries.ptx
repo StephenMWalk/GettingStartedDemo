@@ -77,7 +77,7 @@ For the quiz, be ready to do the following:
         #3
       </cell>
       <cell right="medium">
-          <underscore />n=0<circumflex /> =  +  +  +  + <m></m>
+          <m>\displaystyle{\sum_{n=0}^{\infty}\,\frac{4n+3}{7n+5} = \frac{3}{5} + \frac{7}{12} + \frac{11}{19} + \frac{15}{26} + \cdots}</m>
       </cell>
       <cell right="medium">
           has a finite sum: <fillin/> has no finite sum
