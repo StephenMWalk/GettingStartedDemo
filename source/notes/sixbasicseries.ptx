@@ -69,7 +69,7 @@ For the quiz, be ready to do the following:
         <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{n(n+1)} = \frac{1}{2} + \frac{1}{6} + \frac{1}{12} + \frac{1}{20} + \cdots}</m>  (note that <m>\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}</m>)
       </cell>
       <cell right="medium">
-          has a finite sum: <fillin/> has no finite sum
+          has a finite sum: <fillin/> <br/> has no finite sum
       </cell>
     </row>
     <row bottom="medium">
