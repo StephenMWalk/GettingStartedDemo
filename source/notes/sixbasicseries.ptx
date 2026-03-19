@@ -25,7 +25,7 @@ For the quiz, be ready to do the following:
             </ul>
         <p>You will also need to tell whether each series <em>CONVERGES</em> or <em>DIVERGES</em>.</p>
 
-        <p>Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly</em> (generally the geometric series--<em>if</em>> it converges--or the telescoping series) and tell <em>what</em> that exact sum is.</p></li>
+        <p>Finally, you will need to pick at least <em>ONE</em> series whose sum can be found <em>exactly</em> (generally the geometric series--<em>if</em> it converges--or the telescoping series) and tell <em>what</em> that exact sum is.</p></li>
     </ul></p>
 
 <subsection><title>Example</title>
@@ -39,20 +39,31 @@ For the quiz, be ready to do the following:
 
 <table>
   <tabular halign="center" top="medium">
+    <row header="yes">
+      <cell left="medium" right="medium">
+        series
+      </cell>
+      <cell right="medium">
+        formula
+      </cell>
+      <cell right="medium">
+          conclusions
+      </cell>
+    </row>
     <row bottom="medium">
       <cell left="medium" right="medium">
-        1
+        #1
       </cell>
       <cell right="medium">
         <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots}</m>
       </cell>
       <cell right="medium">
-          has a finite sum: <u>\ \ \ \ \ \ </u> has no finite sum
+          has a finite sum: <u>&nbsp; &nbsp; &nbsp;</u> has no finite sum
       </cell>
     </row>
     <row bottom="medium">
       <cell left="medium" right="medium">
-        2
+        #2
       </cell>
       <cell right="medium">
         <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{n(n+1)} = \frac{1}{2} + \frac{1}{6} + \frac{1}{12} + \frac{1}{20} + \cdots}</m>  (note that <m>\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}</m>)
@@ -63,7 +74,7 @@ For the quiz, be ready to do the following:
     </row>
     <row bottom="medium">
       <cell left="medium" right="medium">
-        3
+        #3
       </cell>
       <cell right="medium">
           <underscore />n=0<circumflex /> =  +  +  +  + <m></m>
@@ -74,7 +85,7 @@ For the quiz, be ready to do the following:
     </row>
     <row bottom="medium">
       <cell left="medium" right="medium">
-        4
+        #4
       </cell>
       <cell right="medium">
         <m>\displaystyle{\sum_{n=0}^{\infty}\,(-1)^n = 1 + (-1) + 1 + (-1) + \cdots}</m>
@@ -85,7 +96,7 @@ For the quiz, be ready to do the following:
     </row>
     <row bottom="medium">
       <cell left="medium" right="medium">
-        5
+        #5
       </cell>
       <cell right="medium">
         <m>\displaystyle{\sum_{n=0}^{\infty}\,5\left(\frac{3}{7}\right)^n = 5 + \frac{15}{7} + \frac{45}{49} + \frac{135}{343} + \cdots}</m>
@@ -96,7 +107,7 @@ For the quiz, be ready to do the following:
     </row>
     <row bottom="medium">
       <cell left="medium" right="medium">
-        6
+        #6
       </cell>
       <cell right="medium">
         <m>\displaystyle{\sum_{n=1}^{\infty}\,\frac{1}{\sqrt{n}} = 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}} + \frac{1}{\sqrt{4}} + \cdots}</m>
