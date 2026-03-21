@@ -59,16 +59,10 @@
 
 <title>Connections between SETS and FUNCTIONS</title>
 
-<definition><p>The <alert>characteristic function of a set <m>A</m></alert> is the <alert>total</alert> function defined as follows:
-For any natural number <m>n</m>, <m>\chi_A(n)</m> is
-
+<definition><p>The <alert>characteristic function of a set <m>A</m></alert>, <m>\chi_A</m>, is the <alert>total</alert> function defined as follows:
+For any natural number <m>n</m>,
 <me>\chi_A(n) = \begin{cases} 1, \amp \text{if } n \in A, \text{ and } \\
            0, \amp \text{if } n \not\in A. \end{cases}</me>
-
-<md>
-<mrow> 1, \amp \hbox{ if } n \in A, \hbox{ and } </mrow>
-<mrow> 0, \amp \hbox{ if } n \not\in A. </mrow>
-</md>
 </p></definition>
 
 <p><em>THINKING BACK TO COMPUTABLE SETS.</em>  It is not hard to see that a SET <m>A</m> of natural numbers is computable <em>IF AND ONLY IF</em> <alert>its characteristic function, <m>\chi_A</m>, is a computable function</alert>.</p>
