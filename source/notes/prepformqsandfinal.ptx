@@ -32,8 +32,8 @@ ALWAYS present your work clearly.  Write legibly.  Ensure that there is a logica
 <li>  <p>And don't abuse the <q>equals</q> sign.  Use the <q>equals</q> sign to assert that two quantities actually are equal.  Do not use it in any other case:</p>
 <ul>
 <li>  For instance, don't write <q><m>\sin x = \cos x</m></q> or <q><m>x^3 = 3x^2</m></q> when what you mean are that the <em>derivative of</em> <m>\sin x</m> is <m>\cos x</m> or that the <em>derivative of</em> <m>x^3</m> is <m>3x^2</m>.  Don't do this even in a note to yourself; that breeds bad habits.  </li>
-<li>  If you're solving an equation or following some other sort of procedure, don't use the <q>equals</q> sign to connect <em>steps</em>.  I often see students hand in questionable strings of equalities like the following:
-<md> (x+5)^3 = 8 = x+5 = 2 = x = -3. </md>  (Hmmm. <ellipsis/> Eight and two and negative-three are all <em>equal</em> to each other?)  Avoid this.  Take a deep breath and write the steps separately:
+<li>  <p>If you're solving an equation or following some other sort of procedure, don't use the <q>equals</q> sign to connect <em>steps</em>.  I often see students hand in questionable strings of equalities like the following:</p>
+<md> (x+5)^3 = 8 = x+5 = 2 = x = -3. </md>  <p>(Hmmm. <ellipsis/> Eight and two and negative-three are all <em>equal</em> to each other?)  Avoid this.  Take a deep breath and write the steps separately:</p>
 <p>We have <m>(x+5)^3 = 8</m>, so that <m>x+5 = 2</m>, and thus <m>x = -3</m>. </p> </li>
 </ul> </li>
 </ul></p>
