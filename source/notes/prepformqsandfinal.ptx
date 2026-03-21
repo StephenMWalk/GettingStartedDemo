@@ -20,7 +20,7 @@
 <li>  Don't <q>distribute wantonly,</q> as in <q><m>\sqrt{a+b} = \sqrt{a}+\sqrt{b}</m></q> or <q><m>(x+3)^2 = x^2+9</m>.</q> </li>
 <li>  On the other hand, <em>do</em> distribute when appropriate:  If your point-slope form is <m>y-4 = 3(x-5)</m>, don't write <q><m>y-4=3x-5</m></q> as your 
 next step. </li>
-<li>  Put parentheses where you need them, and respect them in the order of operations!  Don't write <q><m>x^2 \cdot -\sin x</m></q> when you mean <q><m>x^2 \cdot (-\sin x)</m>.</q>  Also, when you're plugging a number in for a variable, put parentheses around the substituted value:  If <m>f(x) = x^4 + 7</m>, for instance, evaluate <m>f(-2)</m> as <q><m>(-2)^4 + 7</m>,</q> or you may end up with a careless and incorrect result (</m>-9</m> instead of 23). </li>
+<li>  Put parentheses where you need them, and respect them in the order of operations!  Don't write <q><m>x^2 \cdot -\sin x</m></q> when you mean <q><m>x^2 \cdot (-\sin x)</m>.</q>  Also, when you're plugging a number in for a variable, put parentheses around the substituted value:  If <m>f(x) = x^4 + 7</m>, for instance, evaluate <m>f(-2)</m> as <q><m>(-2)^4 + 7</m>,</q> or you may end up with a careless and incorrect result (<m>-9</m> instead of <m>23</m>). </li>
 </ul>
 ALWAYS present your work clearly.  Write legibly.  Ensure that there is a logical flow to the steps you present.  Don't write part of your calculation in one corner of the work space, part in another corner, and the rest along the side.  Write your work as if you're explaining something in order to <em>convince</em> someone. </p>
 
