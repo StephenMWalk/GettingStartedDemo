@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sixbasicseriesmq" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Notes on preparing for Mastery Quizzes (and, of course, for the Final Exam)</title>
+
+<p><alert>General notes.</alert>  Be ready with your Calculus I knowledge: 
+<ul>
+<li>  Know the derivative formulas for all of the basic functions (polynomials, other power functions such as roots and reciprocals, exponentials, logarithms, trigonometric functions, inverse-trigonometric functions).  <em>Know them so well that you can reverse them in order to find ANTI-derivatives.</em> </li>
+<li>  Be able to apply the product rule, the quotient rule, and the chain rule.   </li>
+<li>  Also know the integral formulas for all of the basic functions except the inverse functions (polynomials, other power functions such as roots and reciprocals, exponentials, logarithms, trigonometric functions, inverse-trigonometric functions); the integral formulas for most of these are Calc I knowledge, and the integral formulas for the inverse functions (logarithms and inverse-trigonometric functions) are in the section on <em>Integration by parts</em>. </li>  
+<li>  Be able to carry out a <m>u</m>-substitution confidently. </li>
+<li>  Be able to apply the ideas of <q>first derivative as slope</q> and <q>second derivative as concavity,</q> including (a) finding an equation for a line tangent to a graph at a point and (b) discovering where a function is increasing or decreasing and where its extreme values are.
+<li>  Include a differential (<m>dx</m> or <m>dt</m>, for instance) in every integral!  Include a <q><m>+ C</m></q> with every <em>indefinite</em> integral! </li>
+</ul></p>
+
+<p>Be on top of your algebra and trigonometry knowledge as well.  For instance, know the basic trigonometric identities (the <q>Pythagorean</q> ones, the double-angle ones, and the formulas that give four of the functions in terms of the sine and the cosine).  Know the <q>nice</q> values of the trigonometric functions and the <q>opposite, adjacent, hypotenuse</q> characterizations of the six trigonometric functions.</p>
+
+<p>Avoid algebra mistakes:
+<ul>
+<li>  Don't <q>distribute wantonly,</q> as in <q><m>\sqrt{a+b} = \sqrt{a}+\sqrt{b}</m></q> or <q><m>(x+3)^2 = x^2+9</m>.</q> </li>
+<li>  On the other hand, <em>do</em> distribute when appropriate:  If your point-slope form is <m>y-4 = 3(x-5)</m>, don't write <q><m>y-4=3x-5</m></q> as your 
+next step. </li>
+<li>  Put parentheses where you need them, and respect them in the order of operations!  Don't write <q><m>x^2 \cdot -\sin x</m></q> when you mean <q><m>x^2 \cdot (-\sin x)</m>.</q>  Also, when you're plugging a number in for a variable, put parentheses around the substituted value:  If <m>f(x) = x^4 + 7</m>, for instance, evaluate <m>f(-2)</m> as <q><m>(-2)^4 + 7</m>,</q> or you may end up with a careless and incorrect result (</m>-9</m> instead of 23). </li>
+</ul>
+ALWAYS present your work clearly.  Write legibly.  Ensure that there is a logical flow to the steps you present.  Don't write part of your calculation in one corner of the work space, part in another corner, and the rest along the side.  Write your work as if you're explaining something in order to <em>convince</em> someone. </p>
+
+<p>And avoid common mistakes of notation and presentation:
+<ul>
+<li>  Always give trigonometric functions and logarithms <em>arguments</em>.  That is, don't leave <q><m>\cos</m></q> and <q><m>\sin</m></q> and <q><m>\ln</m></q> by themselves anywhere; we <em>always</em> need the cosine and the sine and the natural logarithm OF SOMETHING. </li>
+<li>  Along the same lines, never leave the <q>limit OF</q> symbol or the <q>derivative OF</q> symbol by itself:  That is, don't write 
+<q><m>\lim_{x \rightarrow 2} = 5</m></q> or <q><m>\frac{d}{dx} = 15</m>.</q> </li>
+<li>  And don't abuse the <q>equals</q> sign.  Use the <q>equals</q> sign to assert that two quantities actually are equal.  Do not use it in any other case:
+<ul>
+<li>  For instance, don't write <q><m>\sin x = \cos x</m></q> or <q><m>x^3 = 3x^2</m></q> when what you mean are that the <em>derivative of</em> <m>\sin x</m> is <m>\cos x</m> or that the <em>derivative of</em> <m>x^3</m> is <m>3x^2</m>.  Don't do this even in a note to yourself; that breeds bad habits.  </li>
+<li>  If you're solving an equation or following some other sort of procedure, don't use the <q>equals</q> sign to connect <em>steps</em>.  I often see students hand in questionable strings of equalities like the following:
+<md> (x+5)^3 = 8 = x+5 = 2 = x = -3. </md>  (Hmmm. <ellipsis/> Eight and two and negative-three are all <em>equal</em> to each other?)  Avoid this.  Take a deep breath and write the steps separately:
+<blockquote>We have <m>(x+5)^3 = 8</m>, so that <m>x+5 = 2</m>, and thus <m>x = -3</m>. </blockquote> </li>
+</ul> </li>
+</ul></p>
+
+</section>
