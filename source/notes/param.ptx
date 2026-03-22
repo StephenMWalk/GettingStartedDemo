@@ -25,18 +25,17 @@
 <example><p>Do BOTH of the following.
 <ul>
 <li>  Give a parametrization of an ellipse with horizontal axis 14 units long and vertical axis 10 units long, centered at the point <m>(1,4)</m>, letting <m>t</m> vary from <m>0</m> to <m>2\pi</m>.</li>
-
 <li>  Eliminate the parameter to obtain an equation in <m>x</m> and <m>y</m>:
 <me> x = 1 - \sin^2t,  y = \cos t,  \pi \leq t \leq 2\pi. </me>
 Then <em>graph</em> the curve.</li>
-</ul>
+</ul></p>
 </example>
 
 <example><p>Do BOTH of the following.
 <ul>
 <li>  Give a parametrization of the circle of radius <m>6</m> with center <m>(3,-1)</m>, letting <m>t<m> vary from <m>0</m> to <m>2\pi</m>, starting at the <em>left</em> side of the circle (the point <m>(-3,-1)<m>) and using <m>clockwise</m> orientation. </li>
 <li>  Give a parametrization of the line segment from the point <m>(9,4)</m> to the point <m>(6,7)</m>.  Be sure to give a domain for <m>t<m>-values. </li>
-</ul>
+</ul></p>
 </example>
 
 </subsection>
