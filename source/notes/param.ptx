@@ -33,7 +33,7 @@ Then <em>graph</em> the curve.</li>
 
 <example><p>Do BOTH of the following.
 <ul>
-<li>  Give a parametrization of the circle of radius <m>6</m> with center <m>(3,-1)</m>, letting <m>t<m> vary from <m>0</m> to <m>2\pi</m>, starting at the <em>left</em> side of the circle (the point <m>(-3,-1)<m>) and using <m>clockwise</m> orientation. </li>
+<li>  Give a parametrization of the circle of radius <m>6</m> with center <m>(3,-1)</m>, letting <m>t</m> vary from <m>0</m> to <m>2\pi</m>, starting at the <em>left</em> side of the circle (the point <m>(-3,-1)<m>) and using <m>clockwise</m> orientation. </li>
 <li>  Give a parametrization of the line segment from the point <m>(9,4)</m> to the point <m>(6,7)</m>.  Be sure to give a domain for <m>t<m>-values. </li>
 </ul></p>
 </example>
