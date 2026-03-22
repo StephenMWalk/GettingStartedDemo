@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="parammq" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Mini-review of course topics: [PATHS]  Basic parametrization.</title>
+
+<p><em>The overall idea:  Some very natural curves (such as circles) CANNOT be rendered in the form <q><m>y</m> as a function of <m>x</m>.</q>  For some such curves, we can imagine the curve being traced out <q>as time passes,</q> letting both coordinates of the tracing point depend on a new parameter <m>t</m>.</em></p>
+
+<p>Memory work<mdash/>do these <em>NOW</em>, <em>OUT LOUD</em>:
+    <ul>
+   <li>  <em>STATE</em> the basic parametrizations of the unit circle at the origin<mdash/>page 1 of the <q>Parametrization investigations</q> packet.  (Or don't.  I don't have them memorized.  I just use the <q>finger trick</q> and think about where we start, which direction we go, and which of the four functions <m>\sin t</m>, <m>-\sin t</m>, <m>\cos t</m>, or <m>-\cos t</m> works for the <m>x</m>-coordinate and which one works for the <m>y</m>-coordinate.  I also remember that <m>x</m> and <m>y</m> won't both be sines or both be cosines.) </li>
+   <li>  <em>STATE</em> how the center and the radius are represented in the parametric equations for circle (and for ellipses). </li>
+   <li>  <em>STATE</em> the basic parametrization of a straight line. </li>
+    </ul></p>
+<p>For the quiz, be ready to do the following:
+<ul>
+<li>  Given the center and radius of a circle, find a parametrization for it that starts in a prescribed place (the circle's top, bottom, left, or right) and is traced out in a prescribed direction (clockwise or counterclockwise).</li>
+<li>  Given the center and axis lengths of an ellipse, find a parametrization for it that starts in a prescribed place (the circle's top, bottom, left, or right) and is traced out in a prescribed direction (clockwise or counterclockwise).</li>
+<li>  Give a parametrization (including a domain for <m>t</m>-values) for a given line segment traced out in a specified direction.</li>
+<li>  Given parametric equations, eliminate the parameter to discern an equation in <m>x</m> and <m>y</m>.  (This will require algebra and possibly trigonometric identities!)  <em>T{HEN}} sketch the curve (probably using the <m>xy</m>-equation as a guide), showing its beginning and ending points and the direction in which it is traced out.</li>
+</ul>
+</p>
+
+<subsection><title>Examples</title>
+
+<example><p>Do BOTH of the following.
+<ul>
+<li>  Give a parametrization of an ellipse with horizontal axis 14 units long and vertical axis 10 units long, centered at the point <m>(1,4)</m>, letting <m>t</m> vary from <m>0</m> to <m>2\pi</m>.</li>
+
+<li>  Eliminate the parameter to obtain an equation in <m>x<m> and <m>y<m>:
+<me> x = 1 - \sin^2t,  y = \cos t,  \pi \leq t \leq 2\pi. </me>
+Then <em>graph</em> the curve.</li>
+</ul>
+</example>
+
+<example><p>Do BOTH of the following.
+<ul>
+<li>  Give a parametrization of the circle of radius <m>6</m> with center <m>(3,-1)</m>, letting <m>t<m> vary from <m>0</m> to <m>2\pi</m>, starting at the <em>left</em> side of the circle (the point <m>(-3,-1)<m>) and using <m>clockwise</m> orientation. </li>
+<li>  Give a parametrization of the line segment from the point <m>(9,4)</m> to the point <m>(6,7)</m>.  Be sure to give a domain for <m>t<m>-values. </li>
+</ul>
+</example>
+
+</subsection>
+
+</section>

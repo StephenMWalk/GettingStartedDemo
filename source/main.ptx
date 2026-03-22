@@ -27,6 +27,7 @@
       <xi:include href="./notes/trigsub.ptx"/>
       <xi:include href="./notes/prepformqsandfinal.ptx"/>
       <xi:include href="./notes/sixbasicseries.ptx"/>
+      <xi:include href="./notes/param.ptx"/>
       <xi:include href="./notes/computabilityprimer.ptx"/>
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
