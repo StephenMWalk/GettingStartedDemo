@@ -16,7 +16,7 @@
 <li>  Given the center and radius of a circle, find a parametrization for it that starts in a prescribed place (the circle's top, bottom, left, or right) and is traced out in a prescribed direction (clockwise or counterclockwise).</li>
 <li>  Given the center and axis lengths of an ellipse, find a parametrization for it that starts in a prescribed place (the circle's top, bottom, left, or right) and is traced out in a prescribed direction (clockwise or counterclockwise).</li>
 <li>  Give a parametrization (including a domain for <m>t</m>-values) for a given line segment traced out in a specified direction.</li>
-<li>  Given parametric equations, eliminate the parameter to discern an equation in <m>x</m> and <m>y</m>.  (This will require algebra and possibly trigonometric identities!)  <em>T{HEN}} sketch the curve (probably using the <m>xy</m>-equation as a guide), showing its beginning and ending points and the direction in which it is traced out.</li>
+<li>  Given parametric equations, eliminate the parameter to discern an equation in <m>x</m> and <m>y</m>.  (This will require algebra and possibly trigonometric identities!)  <em>THEN</em> sketch the curve (probably using the <m>xy</m>-equation as a guide), showing its beginning and ending points and the direction in which it is traced out.</li>
 </ul>
 </p>
 
