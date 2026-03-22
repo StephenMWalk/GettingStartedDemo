@@ -26,7 +26,7 @@
 <ul>
 <li>  Give a parametrization of an ellipse with horizontal axis 14 units long and vertical axis 10 units long, centered at the point <m>(1,4)</m>, letting <m>t</m> vary from <m>0</m> to <m>2\pi</m>.</li>
 
-<li>  Eliminate the parameter to obtain an equation in <m>x<m> and <m>y<m>:
+<li>  Eliminate the parameter to obtain an equation in <m>x</m> and <m>y</m>:
 <me> x = 1 - \sin^2t,  y = \cos t,  \pi \leq t \leq 2\pi. </me>
 Then <em>graph</em> the curve.</li>
 </ul>
