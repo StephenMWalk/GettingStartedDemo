@@ -5,11 +5,11 @@
 
 <p>(This is one of the two options that earn the <q>WILD any calculus</q> sticker in the <q>PATHS</q> category.)  <em>The overall idea:  Throughout our Calculus I and Calculus II experience, we have developed ways to discover various geometric aspects of graphs that are expressed in the form <q><m>y</m> as a function of <m>x</m>.</q>  We can discover <em>exactly</em> the same geometric aspects of graphs that are expressed via parametric equations; we just have to adapt our <q><m>xy</m>-notions</q> appropriately.</em></p>
 
-Memory work<mdash/>do this <em>NOW</em>, <em>OUT LOUD</em>:
+<p>Memory work<mdash/>do this <em>NOW</em>, <em>OUT LOUD</em>:
 <ul>
 <li>  <em>EXPLAIN</em> the tricks of <q>using <m>\frac{dx}{dt} \cdot dt</m> whenever you need <m>\Delta x</m></q> and <q>using <m>\frac{dy}{dt} \cdot dt</m> whenever you need <m>\Delta y</m>.</q> </li>
 <li>  <em>STATE</em> the six formulas given in the supplement. </li>
-</ul>
+</ul></p>
 <p>For the quiz, be ready to do the following:
 <ul>
 <li>  <p>Given parametric equations for a curve and a basic sketch of the curve, set up integrals representing the following six quantities <em>in terms of <m>t</m></em>:</p>
